@@ -1,0 +1,253 @@
+0;//Engineering East---------------------------------------------------------//{
+	Engineering East;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	0;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+1;//Engineering Maint.--------------------------------------------------------//{
+	Engineering East Maintenance;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	1;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+2;//Lower deck maintenance---------------------------------------------------------//{
+	Lower deck maintenance;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	2;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+3;//Engineering West---------------------------------------------------------//{
+	Engineering West;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	3;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+4;//Main Dormitories---------------------------------------------------------//{
+	Main Dormitories;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	5;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+5;//Dorm---------------------------------------------------------//{
+	Dorm;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	6;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+6;//Main Dormitories Maintenance Shaft---------------------------------------------------------//{
+	Main Dormitories Maintenance Shaft;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	7;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+7;//Common Area--------------------------------------------------------//{
+	Common Area;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	8;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+8;//Cargo Bay---------------------------------------------------------//{
+	Cargo Bay;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	9;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+9;//Crew Sector--------------------------------------------------------//{
+	Crew Sector;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	10;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+10;//Crew Sector Maintenance Shaft II---------------------------------------------------------//{
+	Crew Sector Maintenance Shaft II;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	11;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+11;//Crew Sector Maintenance Shaft I--------------------------------------------------------//{
+	Crew Sector Maintenance Shaft I;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	12;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+12;//Engineering Common Sector--------------------------------------------------------//{
+	Engineering Common Sector;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	14;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+13;//Engineering Cryo Room Vent Shaft--------------------------------------------------------//{
+	Engineering Cryo Room Vent Shaft;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	13;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+14;//Engineering Common Area--------------------------------------------------------//{
+	Engineering Common Area;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	16;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+15;//Engineering Storage Area--------------------------------------------------------//{
+	Engineering Storage Sector;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	15;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+16;//Engineering Main Area--------------------------------------------------------//{
+	Engineering Main Area;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	17;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+17;//Engineering Maintenance Area--------------------------------------------------------//{
+	Engineering Main Area;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	18;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+18;//Engineering Common Maintenance Area--------------------------------------------------------//{
+	Engineering Common Maintenance Area;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	19;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+19;//Engineering Dormitory Area--------------------------------------------------------//{
+	Engineering Dormitory Area;//area name
+	0;//area class
+	0;//climate in climate_types.dat, -1=random climate
+	20;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+20;//Start Area--------------------------------------------------------//{
+	Start Area;//area name
+	0;//area class
+	2;//climate in climate_types.dat, -1=random climate
+	22;//terrain map number
+	-1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+	1;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+	begin_alien_list;
+	end_alien_list;
+	begin_excluded_plot_object_classes;
+	end_excluded_plot_object_classes;
+	none;//enter area text, specify none to not show it//}
+end_of_file;

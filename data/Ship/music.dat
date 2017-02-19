@@ -1,0 +1,43 @@
+0;//identifier-----------------------------------------
+  scary_music.mp3
+  0;//can be randomly selected
+1;//identifier-----------------------------------------
+  horror2.wav
+  0;//can be randomly selected
+2;//identifier-----------------------------------------
+	silence.mp3
+	1;//can be randomly selected
+3;//identifier-----------------------------------------
+	silence.mp3
+	1;//can be randomly selected
+4;//identifier-----------------------------------------
+	silence.mp3
+	1;//can be randomly selected
+5;//identifier-----------------------------------------
+	silence.mp3
+	1;//can be randomly selected
+6;//identifier-----------------------------------------
+	silence.mp3
+	1;//can be randomly selected
+7;//identifier-----------------------------------------
+  lost_in_space.mp3
+  0;//can be randomly selected
+8;//identifier-----------------------------------------
+  nightmare.mp3
+  0;//can be randomly selected
+9;//identifier-----------------------------------------
+	horror_ambience_00.mp3
+	1;//can be randomly selected
+10;//identifier-----------------------------------------
+	horror_ambience_01.mp3
+	1;//can be randomly selected
+11;//identifier-----------------------------------------
+	horror_ambience_02.mp3
+	1;//can be randomly selected
+12;//identifier-----------------------------------------
+	horror_ambience_03.mp3
+	1;//can be randomly selected
+13;//identifier-----------------------------------------
+	horror_ambience_04.mp3
+	1;//can be randomly selected
+end_of_file;

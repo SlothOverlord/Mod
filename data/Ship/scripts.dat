@@ -1,0 +1,1902 @@
+Player is in critical condition;//name------------------------------------------------------------------------------------------------------
+	0;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	500;//run every n milliseconds
+	You are in critical condition!!!;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		5;//condition
+			9.000000;//condition parameter0
+			0.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		28;//effect number-----------------------Start Death Timer
+			11.000000;//parameter1
+			9.000000;//parameter2
+			0.100000;//parameter3
+			0.000000;//parameter4
+		29;//effect number-----------------------Run "Check Death[8]" Script
+			8.000000;//parameter1
+			1.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+		39;//effect number-----------------------Show Death Timer Bar
+			11.000000;//parameter1
+			1.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Reduce speed if in too much pain;//name------------------------------------------------------------------------------------------------------
+	1;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	3000;//run every n milliseconds
+	You are in severe pain!;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		25;//condition
+			13.000000;//condition parameter0
+			120.000000;//condition parameter1
+		24;//condition
+			13.000000;//condition parameter0
+			65.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		1;//effect number-----------------------Slow Down Player
+			3000.000000;//parameter1
+			-1.000000;//parameter2
+			0.800000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Reduce speed if in too much pain;//name------------------------------------------------------------------------------------------------------
+	2;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	3000;//run every n milliseconds
+	Oh God! The pain!!!;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		24;//condition
+			13.000000;//condition parameter0
+			120.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		1;//effect number-----------------------Slow Down Player
+			3000.000000;//parameter1
+			-1.000000;//parameter2
+			0.500000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Player is tired;//name------------------------------------------------------------------------------------------------------
+  3;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  3000;//run every n milliseconds
+  You are tired! Take a break.;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   5;//condition
+      3.000000;//condition parameter0
+      25.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    1;//effect number-----------------------Slow Down Player
+      3000.000000;//parameter1
+      -1.000000;//parameter2
+      0.700000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Radiation Poisoning;//name------------------------------------------------------------------------------------------------------
+  4;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  You feel very weak!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+24;//condition
+      5.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    28;//effect number-----------------------Give Toxin Damage
+      10.000000;//parameter1
+      5.000000;//parameter2
+      -0.025000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Player is thirsty;//name------------------------------------------------------------------------------------------------------
+  5;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  3000;//run every n milliseconds
+  You are thirsty.;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+25;//condition
+      19.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    1;//effect number-----------------------Slow Down Player
+      3000.000000;//parameter1
+      -1.000000;//parameter2
+      0.950000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Player is Hungry;//name------------------------------------------------------------------------------------------------------
+  6;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  3000;//run every n milliseconds
+  You are hungry.;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+25;//condition
+      6.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    1;//effect number-----------------------Slown Down Player
+      3000.000000;//parameter1
+      -1.000000;//parameter2
+      0.950000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Health Update;//name------------------------------------------------------------------------------------------------------
+	7;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	100;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		17;//effect number-----------------------Reset Health
+			125.000000;//parameter1
+			0.000000;//parameter2
+			9.000000;//parameter3
+			0.000000;//parameter4
+		28;//effect number-----------------------Give Burn Damage
+			9.000000;//parameter1
+			7.000000;//parameter2
+			1.000000;//parameter3
+			0.000000;//parameter4
+		28;//effect number-----------------------Give Brute Damage
+			9.000000;//parameter1
+			8.000000;//parameter2
+			1.000000;//parameter3
+			0.000000;//parameter4
+		28;//effect number-----------------------Give Toxin Damage
+			9.000000;//parameter1
+			10.000000;//parameter2
+			1.000000;//parameter3
+			0.000000;//parameter4
+		28;//effect number-----------------------Give Oxygen Damage
+			9.000000;//parameter1
+			12.000000;//parameter2
+			1.000000;//parameter3
+			0.000000;//parameter4
+		28;//effect number-----------------------Loose Blood By Blood Loss
+			15.000000;//parameter1
+			16.000000;//parameter2
+			0.001500;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Player is dead;//name------------------------------------------------------------------------------------------------------
+	8;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	100;//run every n milliseconds
+	You died!;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	10000;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		5;//condition
+			11.000000;//condition parameter0
+			0.100000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		25;//effect number-----------------------Start End Cinematic
+			1.000000;//parameter1
+			1.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Player is out of critical condition;//name------------------------------------------------------------------------------------------------------
+  9;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1500;//run every n milliseconds
+  You are slowly recovering from critical condition.;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   3;//condition
+      9.000000;//condition parameter0
+      5.000000;//condition parameter1
+	5;//condition
+      11.000000;//condition parameter0
+      1000.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+28;//effect number-----------------------Recover Critical Timer
+      11.000000;//parameter1
+      9.000000;//parameter2
+      0.050000;//parameter3
+      0.000000;//parameter4
+39;//effect number-----------------------Hide Critical Timer Bar
+      11.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Metal Rod Durability Check;//name------------------------------------------------------------------------------------------------------
+  10;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  The metal pipe breaks apart!;//message
+    0;//message type, 0=quick message, 1=journal
+  explosion.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	5;//condition-----------------------
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number-----------------------Break Metal Rod
+      28.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+59;//effect number-----------------------Switch to Fist
+      9.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+17;//effect number-----------------------Reset Durability
+      200.000000;//parameter1
+      0.000000;//parameter2
+      22.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Pain Update;//name------------------------------------------------------------------------------------------------------
+  11;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  100;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+17;//effect number-----------------------Reset Pain
+      0.000000;//parameter1
+      0.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4
+28;//effect number-----------------------Give Burn Pain Value
+      13.000000;//parameter1
+      7.000000;//parameter2
+      -1.500000;//parameter3
+      0.000000;//parameter4
+28;//effect number-----------------------Give Brute Pain Value
+      13.000000;//parameter1
+      8.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+28;//effect number-----------------------Give Toxin Pain Value
+      13.000000;//parameter1
+      10.000000;//parameter2
+      -0.500000;//parameter3
+      0.000000;//parameter4
+28;//effect number-----------------------Give Oxygen Pain Value
+      13.000000;//parameter1
+      12.000000;//parameter2
+      -1.200000;//parameter3
+      0.000000;//parameter4
+28;//effect number-----------------------Reduce Pain with Painkiller Value
+      13.000000;//parameter1
+      14.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+28;//effect number-----------------------Loose Consciousness if Radiation Too High
+      20.000000;//parameter1
+      5.000000;//parameter2
+      0.015000;//parameter3
+      0.000000;//parameter4
+28;//effect number-----------------------Give Radiation Pain Value
+      13.000000;//parameter1
+      5.000000;//parameter2
+      3.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Player is drugged;//name------------------------------------------------------------------------------------------------------
+  12;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  You twitch!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   25;//condition
+      14.000000;//condition parameter0
+      -225.000000;//condition parameter1
+8;//condition
+      2.000000;//condition parameter0
+      0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    1;//effect number-----------------------Slow Down Player
+      2000.000000;//parameter1
+      -1.000000;//parameter2
+      0.700000;//parameter3
+      0.000000;//parameter4
+    33;//effect number-----------------------Stagger Mouse
+      26.000000;//parameter1
+      26.000000;//parameter2
+      500.000000;//parameter3
+      0.000000;//parameter4
+    36;//effect number-----------------------Stagger Screen
+      5.000000;//parameter1
+      500.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Blood level - mild loss;//name------------------------------------------------------------------------------------------------------
+  13;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  You feel dizzy...;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   25;//condition
+      15.000000;//condition parameter0
+      70.000000;//condition parameter1
+24;//condition
+      15.000000;//condition parameter0
+      50.000000;//condition parameter1
+24;//condition
+      12.000000;//condition parameter0
+      -26.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Respiration issues [2-3]
+      -1.500000;//parameter1
+      -2.00000;//parameter2
+      12.000000;//parameter3
+      1.000000;//parameter4
+  end_effects;//}
+Blood level - moderate loss;//name------------------------------------------------------------------------------------------------------
+  14;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  You feel very dizzy!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   25;//condition
+      15.000000;//condition parameter0
+      50.000000;//condition parameter1
+24;//condition
+      15.000000;//condition parameter0
+      30.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Respiration issues [0.5-1]
+      -0.500000;//parameter1
+      -1.00000;//parameter2
+      12.000000;//parameter3
+      1.000000;//parameter4
+  end_effects;//}
+Blood level - Massive loss;//name------------------------------------------------------------------------------------------------------
+  15;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  You are about to pass out!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   25;//condition
+      15.000000;//condition parameter0
+      31.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Respiration issues [1-2]
+      -1.000000;//parameter1
+      -2.00000;//parameter2
+      12.000000;//parameter3
+      1.000000;//parameter4
+  end_effects;//}
+Recover Respiration I;//name------------------------------------------------------------------------------------------------------
+  16;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   24;//condition
+      15.000000;//condition parameter0
+      50.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Recover Respiration [1-2]
+      1.000000;//parameter1
+      2.00000;//parameter2
+      12.000000;//parameter3
+      1.000000;//parameter4
+  end_effects;//}
+Consciousness Pain Update;//name------------------------------------------------------------------------------------------------------
+  17;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  24;//condition-----------------------------If in Pain
+      13.000000;//condition parameter0
+      90.000000;//condition parameter1
+  25;//condition------------------------------Don't go Above 250
+      20.000000;//condition parameter0
+      250.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+28;//effect number-----------------------Loose Consciousness if Pain Too High
+      20.000000;//parameter1
+      13.000000;//parameter2
+      0.008000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Recover Blood;//name------------------------------------------------------------------------------------------------------
+  18;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  5000;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   25;//condition
+      16.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Recover Blood [0.5-1]
+      0.200000;//parameter1
+      0.400000;//parameter2
+      15.000000;//parameter3
+      1.000000;//parameter4
+  end_effects;//}
+Heal if well fed and hydrated;//name------------------------------------------------------------------------------------------------------
+  19;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  5000;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   24;//condition
+      6.000000;//condition parameter0
+      10.000000;//condition parameter1
+   24;//condition
+      19.000000;//condition parameter0
+      10.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Recover Blood [0.15-0.25]
+      0.150000;//parameter1
+      0.2500000;//parameter2
+      15.000000;//parameter3
+      1.000000;//parameter4
+	63;//effect number------------------------------Recover Blood Loss[0.15-0.2]
+      0.1500000;//parameter1
+      0.250000;//parameter2
+      16.000000;//parameter3
+      1.000000;//parameter4
+	63;//effect number------------------------------Heal Brute Damage [0.15-0.25]
+      0.150000;//parameter1
+      0.250000;//parameter2
+      8.000000;//parameter3
+      1.000000;//parameter4
+	63;//effect number------------------------------Heal Burn Damage [0.1-0,2]
+      0.100000;//parameter1
+      0.200000;//parameter2
+      7.000000;//parameter3
+      1.000000;//parameter4
+	63;//effect number------------------------------Heal Toxin Damage [0.15-0.25]
+      0.150000;//parameter1
+      0.250000;//parameter2
+      10.000000;//parameter3
+      1.000000;//parameter4
+	53;//effect number------------------------------Recover Stamina [1-2]
+      0.200000;//parameter1
+      -1.000000;//parameter2
+      3.000000;//parameter3
+      5000.000000;//parameter4
+  end_effects;//}
+Eating Disabler Script;//name------------------------------------------------------------------------------------------------------
+	20;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	60000;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		5;//condition-----------------------Max 3 Times
+			4.000000;//condition parameter0
+			39.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		4;//effect number----------------------Player Can Eat
+			1.000000;//parameter1
+			0.000000;//parameter2
+			39.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Bleeding chance - moderate;//name------------------------------------------------------------------------------------------------------
+  21;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   8;//condition
+      4.000000;//condition parameter0
+      0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Make Him Bleed [5-20]
+      -5.000000;//parameter1
+      -20.000000;//parameter2
+      16.000000;//parameter3
+      1.000000;//parameter4
+  end_effects;//}
+Bleeding chance - high;//name------------------------------------------------------------------------------------------------------
+  22;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   8;//condition
+      2.000000;//condition parameter0
+      0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Make Him Bleed [5-20]
+      -5.000000;//parameter1
+      -20.000000;//parameter2
+      16.000000;//parameter3
+      1.000000;//parameter4
+  end_effects;//}
+Reopen Inventory For Activity;//name-----------------------------------------UNUSED-------------------------------------------------------------
+  23;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  100;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+     5;//condition
+      17.000000;//condition parameter0
+      0.100000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    62;//effect number------------------------------Open Inventory
+      1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Flashlight Energy Drain;//name------------------------------------------------------------------------------------------------------
+  24;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+    23;//effect number
+      -0.400000;//parameter1
+      -1.000000;//parameter2
+      18.000000;//parameter3
+      300.000000;//parameter4
+  end_effects;//}
+Flashlight Depleted;//name------------------------------------------------------------------------------------------------------
+  25;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  Flashlight ran out of charge.;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+       5;//use condition number
+  18.000000;//use condition parameter0
+   1.100000;//use condition parameter1
+0;//use condition number
+  7.000000;//use condition parameter0
+   1.000000;//use condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number------------------------------Remove Flashlight
+      7.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Add Remove Light Effect
+      42.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+4;//effect number------------------------------Recharge Flashlight Energy
+      100.000000;//parameter1
+      1.000000;//parameter2
+      18.000000;//parameter3
+      0.000000;//parameter4
+59;//effect number------------------------------Remove Light Effect
+      42.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Remove Remove Light Effect
+      42.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Give Empty Flashlight
+      13.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Give Depleted Battery Cells
+      40.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+39;//effect number------------------------------Hide Flashlight Energy Bar
+      18.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Blurry Hud Update;//name------------------------------------------------------------------------------------------------------
+  26;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  2500;//run every n milliseconds
+  You are loosing consciousness!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  24;//condition
+      20.000000;//condition parameter0
+      100.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+39;//effect number-----------------------Show Blurry HUD
+      1.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    1;//effect number-----------------------Slown Down Player
+      15000.000000;//parameter1
+      -1.000000;//parameter2
+      0.950000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Blurry Hud Remove Update;//name------------------------------------------------------------------------------------------------------
+  27;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  2500;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  25;//condition
+      20.000000;//condition parameter0
+      100.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+39;//effect number-----------------------Show Blurry HUD
+      1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Crowbar Durability Check;//name------------------------------------------------------------------------------------------------------
+  28;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  The metal pipe breaks apart!;//message
+    0;//message type, 0=quick message, 1=journal
+  explosion.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	5;//condition-----------------------
+      23.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number-----------------------Break Crowbar
+      3.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+59;//effect number-----------------------Switch to Fist
+      9.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+17;//effect number-----------------------Reset Durability
+      200.000000;//parameter1
+      0.000000;//parameter2
+      23.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Screwdriver Durability Check;//name------------------------------------------------------------------------------------------------------
+  29;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  The metal pipe breaks apart!;//message
+    0;//message type, 0=quick message, 1=journal
+  explosion.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	5;//condition-----------------------
+      24.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number-----------------------Break Screwdriver
+      2.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+59;//effect number-----------------------Switch to Fist
+      9.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+17;//effect number-----------------------Reset Durability
+      200.000000;//parameter1
+      0.000000;//parameter2
+      24.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Wirecutter Durability Check;//name------------------------------------------------------------------------------------------------------
+  30;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  The metal pipe breaks apart!;//message
+    0;//message type, 0=quick message, 1=journal
+  explosion.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	5;//condition-----------------------
+      25.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number-----------------------Break Screwdriver
+      4.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+59;//effect number-----------------------Switch to Fist
+      9.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+17;//effect number-----------------------Reset Durability
+      200.000000;//parameter1
+      0.000000;//parameter2
+      25.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Very Blurry Hud Update;//name------------------------------------------------------------------------------------------------------
+  31;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  2500;//run every n milliseconds
+  You are loosing consciousness!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  24;//condition
+      20.000000;//condition parameter0
+      200.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+39;//effect number-----------------------Show Blurry HUD
+      2.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    1;//effect number-----------------------Slown Down Player
+      15000.000000;//parameter1
+      -1.000000;//parameter2
+      0.900000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Very Blurry Hud Remove Update;//name------------------------------------------------------------------------------------------------------
+  32;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  2500;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  25;//condition
+      20.000000;//condition parameter0
+      200.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+39;//effect number-----------------------Hide Blurry HUD
+      2.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Geiger Counter Energy Drain;//name------------------------------------------------------------------------------------------------------
+  33;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+    23;//effect number
+      -0.250000;//parameter1
+      -1.000000;//parameter2
+      26.000000;//parameter3
+      300.000000;//parameter4
+  end_effects;//}
+Geiger Counter Depleted;//name------------------------------------------------------------------------------------------------------
+  34;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  Geiger Counter ran out of charge.;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+       5;//use condition number
+  26.000000;//use condition parameter0
+   1.100000;//use condition parameter1
+0;//use condition number
+  19.000000;//use condition parameter0
+   1.000000;//use condition parameter1
+  end_conditions;
+  begin_effects;
+4;//effect number------------------------------Recharge Geiger Counter Energy
+      100.000000;//parameter1
+      1.000000;//parameter2
+      26.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Remove Geiger Counter
+      19.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Give Empty Geiger counter
+      65.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Give Empty Battery
+      40.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+39;//effect number------------------------------Hide Geiger Counter Energy Bar
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Health Scanner Energy Drain;//name------------------------------------------------------------------------------------------------------
+  35;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  1;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+    23;//effect number
+      -0.250000;//parameter1
+      -1.000000;//parameter2
+      27.000000;//parameter3
+      300.000000;//parameter4
+  end_effects;//}
+Health Scanner Depleted;//name------------------------------------------------------------------------------------------------------
+  36;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  Health scanner ran out of charge.;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+       5;//use condition number
+  27.000000;//use condition parameter0
+   1.100000;//use condition parameter1
+0;//use condition number
+  66.000000;//use condition parameter0
+   1.000000;//use condition parameter1
+  end_conditions;
+  begin_effects;
+4;//effect number------------------------------Recharge Health Scanner Energy
+      100.000000;//parameter1
+      1.000000;//parameter2
+      27.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Remove Health Scanner
+      66.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Give Empty  Health Scanner
+      67.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number------------------------------Give Empty Battery
+      40.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+39;//effect number------------------------------Hide  Health Scanner Energy Bar
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Makeshift Stun Prod Energy Check;//name------------------------------------------------------------------------------------------------------
+  37;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	5;//condition-----------------------
+      30.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number-----------------------Deplete Makeshift Stun Prod
+      78.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number-----------------------Give Depleted Makeshift Stun Prod
+      82.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+59;//effect number-----------------------Switch to Fist
+      9.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+17;//effect number-----------------------Reset Durability
+      200.000000;//parameter1
+      0.000000;//parameter2
+      30.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Small Gas Tank Refill;//name------------------------------------------------------------------------------------------------------
+  38;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  Tank replaced!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	5;//condition-----------------------Oxygen Bar Is Empty
+      29.000000;//condition parameter0
+      2.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number-----------------------Deplete Small Oxygen Tank
+      88.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number-----------------------Give Depleted Small Oxygen Tank
+      91.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+17;//effect number-----------------------Reset Oxygen
+      120.000000;//parameter1
+      0.000000;//parameter2
+      29.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Extended Capacity Gas Tank Refill;//name------------------------------------------------------------------------------------------------------
+  39;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  Tank replaced!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	5;//condition-----------------------Oxygen Bar Is Empty
+      29.000000;//condition parameter0
+      2.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number-----------------------Deplete Extended Capacity Oxygen Tank
+      89.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number-----------------------Give Depleted Extended Capacity Oxygen Tank
+      92.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+17;//effect number-----------------------Reset Oxygen
+      300.000000;//parameter1
+      0.000000;//parameter2
+      29.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Large Gas Tank Refill;//name------------------------------------------------------------------------------------------------------
+  40;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  Tank replaced!;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	5;//condition-----------------------Oxygen Bar Is Empty
+      29.000000;//condition parameter0
+      2.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number-----------------------Deplete Large Oxygen Tank
+      90.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number-----------------------Give Depleted Large Oxygen Tank
+      93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+17;//effect number-----------------------Reset Oxygen
+      900.000000;//parameter1
+      0.000000;//parameter2
+      29.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Use Oxygen;//name------------------------------------------------------------------------------------------------------
+  41;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+	3;//condition-----------------------Oxygen Bar Is Full
+      29.000000;//condition parameter0
+      1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+4;//effect number-----------------------Use Oxygen 
+      -1.000000;//parameter1
+      0.000000;//parameter2
+      29.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Recover Respiration II;//name------------------------------------------------------------------------------------------------------
+  42;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   24;//condition------------------------------If No Blood Loss
+      15.000000;//condition parameter0
+      70.000000;//condition parameter1
+   25;//condition------------------------------If Player Has A Lot Of Oxygen Damage
+      12.000000;//condition parameter0
+      -65.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    63;//effect number------------------------------Recover Respiration [2-3]
+      2.000000;//parameter1
+      3.00000;//parameter2
+      12.000000;//parameter3
+      1.000000;//parameter4
+4;//effect number------------------------------Recover Consciousness [2-3]
+      -4.000000;//parameter1
+      1.00000;//parameter2
+      20.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Reloading I (Pistols);//name------------------------------------------------------------------------------------------------------
+  43;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+	45;//effect number--------------------------------Prevent Usage Of Weapons
+      -1.000000;//parameter1
+      2500.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+	58;//effect number--------------------------------Prevent Usage Of Inventory
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	60;//effect number--------------------------------Prevent Dropping Items
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	1;//effect number--------------------------------Slow Down Player
+      2500.000000;//parameter1
+      -1.000000;//parameter2
+      0.500000;//parameter3
+      0.000000;//parameter4
+	16;//effect number--------------------------------Give Reloading Item
+      112.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	19;//effect number--------------------------------Drop Reloading Disabler Object
+      111.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Swap 9mm Parabellum to AP Ammo Script;//name------------------------------------------------------------------------------------------------------
+  44;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  	  0;//condition-----------------------Swap Parabellum to AP
+      114.000000;//condition parameter0
+      1.000000;//condition parameter1
+  	  0;//condition-----------------------Must Not Change Already
+      112.000000;//condition parameter0
+      0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+	16;//effect number--------------------------------Remove Selected Parabellum
+      114.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	16;//effect number--------------------------------Swap To AP Ammo
+      116.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	16;//effect number--------------------------------Give Reloading/Unloading Item
+      112.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Swap 9mm AP to Parabellum Ammo Script;//name------------------------------------------------------------------------------------------------------
+  45;//identifier//{
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  	  0;//condition-----------------------Swap AP to Parabellum
+      116.000000;//condition parameter0
+      1.000000;//condition parameter1
+  	  0;//condition-----------------------Must Not Change Already
+      112.000000;//condition parameter0
+      0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+	16;//effect number--------------------------------Remove Selected AP
+      114.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	16;//effect number--------------------------------Swap To Parabellum Ammo
+      116.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	16;//effect number--------------------------------Give Reloading/Unloading Item
+      112.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Hunger And Thirst Consumption Script (Slow Metabolism);//name------------------------------------------------------------------------------------------------------
+	46;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	1000;//run every n milliseconds
+		none;//message
+		0;//message type, 0=quick message, 1=journal
+		none;//sound, none for nothing
+		0;//delay script for n seconds after conditions met
+		0;//disabled after first use, 0=no, 1=yes
+			begin_conditions;
+			end_conditions;
+			begin_effects;
+				4;//effect number-----------------------Lower Nutrition
+					-0.2500000;//parameter1
+					1.000000;//parameter2
+					6.000000;//parameter3
+					0.000000;//parameter4
+				4;//effect number-----------------------Lower Hydration
+					-0.3500000;//parameter1
+					1.000000;//parameter2
+					19.000000;//parameter3
+					0.000000;//parameter4
+			end_effects;//}
+Hunger And Thirst Consumption Script (Normal Metabolism);//name------------------------------------------------------------------------------------------------------
+	47;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	1000;//run every n milliseconds
+		none;//message
+		0;//message type, 0=quick message, 1=journal
+		none;//sound, none for nothing
+		0;//delay script for n seconds after conditions met
+		0;//disabled after first use, 0=no, 1=yes
+			begin_conditions;
+			end_conditions;
+			begin_effects;
+				4;//effect number-----------------------Lower Nutrition
+					-0.4000000;//parameter1
+					1.000000;//parameter2
+					6.000000;//parameter3
+					0.000000;//parameter4
+				4;//effect number-----------------------Lower Hydration
+					-0.5000000;//parameter1
+					1.000000;//parameter2
+					19.000000;//parameter3
+					0.000000;//parameter4
+			end_effects;//}
+Hunger And Thirst Consumption Script (Fast Metabolism);//name------------------------------------------------------------------------------------------------------
+	48;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	1000;//run every n milliseconds
+		none;//message
+		0;//message type, 0=quick message, 1=journal
+		none;//sound, none for nothing
+		0;//delay script for n seconds after conditions met
+		0;//disabled after first use, 0=no, 1=yes
+			begin_conditions;
+			end_conditions;
+			begin_effects;
+				4;//effect number-----------------------Lower Nutrition
+					-0.5500000;//parameter1
+					1.000000;//parameter2
+					6.000000;//parameter3
+					0.000000;//parameter4
+				4;//effect number-----------------------Lower Hydration
+					-0.6500000;//parameter1
+					1.000000;//parameter2
+					19.000000;//parameter3
+					0.000000;//parameter4
+			end_effects;//}
+View Range Overlay - Bad;//name------------------------------------------------------------------------------------------------------
+	54;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	25;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		19;//effect number-----------------------View Range Overlay - Bad
+			8.000000;//parameter1
+			10.500000;//parameter2
+			0.100000;//parameter3
+			1.000000;//parameter4
+	end_effects;//}
+View Range Overlay - Good;//name------------------------------------------------------------------------------------------------------
+	55;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	25;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		19;//effect number-----------------------View Range Overlay - Good
+			9.000000;//parameter1
+			10.500000;//parameter2
+			0.100000;//parameter3
+			1.000000;//parameter4
+	end_effects;//}
+View Range Overlay - Normal;//name------------------------------------------------------------------------------------------------------
+	56;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	25;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		19;//effect number-----------------------View Range Overlay - Normal
+			11.000000;//parameter1
+			10.500000;//parameter2
+			0.100000;//parameter3
+			1.000000;//parameter4
+	end_effects;//}
+Check Moving Direction;//name------------------------------------------------------------------------------------------------------
+	57;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	300;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		66;//effect number-----------------------Check If Player Is Moving Backwards
+			51.000000;//parameter1
+			1.000000;//parameter2
+			0.000000;//parameter3
+			-55.000000;//parameter4
+	end_effects;//}
+Use Item Script I;//name------------------------------------------------------------------------------------------------------
+	58;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	300;//run every n milliseconds
+	Finished;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		58;//effect number--------------------------------Allow Usage Of Inventory
+			1.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+		62;//effect number------------------------------Open Inventory
+			1.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+		60;//effect number--------------------------------Allow Dropping Items
+			1.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+		39;//effect number-----------------------Hide Activity Bar
+			17.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+		16;//effect number------------------------------Remove (HELPER) Player Is Busy
+			112.000000;//parameter1
+			-1.00000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Use Item Script II;//name------------------------------------------------------------------------------------------------------
+	59;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	300;//run every n milliseconds
+	You cancelled the task.;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		58;//effect number--------------------------------Allow Usage Of Inventory
+			1.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+		60;//effect number--------------------------------Allow Dropping Items
+			1.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+		39;//effect number-----------------------Hide Activity Bar
+			17.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+		4;//effect number-----------------------Reset Activity Bar
+			-100.000000;//parameter1
+			1.000000;//parameter2
+			17.000000;//parameter3
+			0.000000;//parameter4
+		16;//effect number------------------------------Remove (HELPER) Player Is Busy
+			112.000000;//parameter1
+			-1.00000;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Stamina Check: Crowbar;//name------------------------------------------------------------------------------------------------------
+	60;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	200;//run every n milliseconds
+	You are too tired to swing.;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		5;//condition-----------------------If Tired
+			3.000000;//condition parameter0
+			15.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		45;//effect number----------------------Attack Frame Cooldown
+			12.000000;//parameter1
+			300.000000;//parameter2
+			-1.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Stamina Check: Metal Rod;//name------------------------------------------------------------------------------------------------------
+	61;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	200;//run every n milliseconds
+	You are too tired to swing.;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		5;//condition-----------------------If Tired
+			3.000000;//condition parameter0
+			20.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		45;//effect number----------------------Attack Frame Cooldown
+			10.000000;//parameter1
+			400.000000;//parameter2
+			-1.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Stamina Check: Fist;//name------------------------------------------------------------------------------------------------------
+	62;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	200;//run every n milliseconds
+	You are too tired to swing.;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		5;//condition-----------------------If Tired
+			3.000000;//condition parameter0
+			8.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		45;//effect number----------------------Attack Frame Cooldown
+			52.000000;//parameter1
+			300.000000;//parameter2
+			-1.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Throw Range Script;//name------------------------------------------------------------------------------------------------------
+	63;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	50;//run every n milliseconds
+	You aim at where to throw;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		37;//condition-----------------------If Right Mouse Button Pressed
+			1.000000;//condition parameter0
+			0.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		53;//effect number----------------------Rise Throw Range
+			50.000000;//parameter1
+			-1.000000;//parameter2
+			28.000000;//parameter3
+			50.000000;//parameter4
+	end_effects;//}
+Stamina Check: Screwdriver;//name------------------------------------------------------------------------------------------------------
+	64;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	200;//run every n milliseconds
+	You are too tired to swing.;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		5;//condition-----------------------If Tired
+			3.000000;//condition parameter0
+			8.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		45;//effect number----------------------Attack Frame Cooldown
+			10.000000;//parameter1
+			300.000000;//parameter2
+			-1.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+Stamina Check: WireCutters;//name------------------------------------------------------------------------------------------------------
+	65;//identifier//{
+	0;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	200;//run every n milliseconds
+	You are too tired to swing.;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		5;//condition-----------------------If Tired
+			3.000000;//condition parameter0
+			8.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		45;//effect number----------------------Attack Frame Cooldown
+			10.000000;//parameter1
+			300.000000;//parameter2
+			-1.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+InGame Minutes;//name------------------------------------------------------------------------------------------------------
+	66;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	1250;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		4;//effect number-----------------------Rise InGame Minutes
+			1.000000;//parameter1
+			0.000000;//parameter2
+			40.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+InGame Hours;//name------------------------------------------------------------------------------------------------------
+	67;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	1250;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		3;//condition-----------------------If 60 minutes passed
+			40.000000;//condition parameter0
+			60.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		4;//effect number-----------------------Rise InGame Hours
+			1.000000;//parameter1
+			0.000000;//parameter2
+			41.000000;//parameter3
+			0.000000;//parameter4
+		17;//effect number-----------------------Reset InGame Minutes
+			0.000000;//parameter1
+			0.000000;//parameter2
+			40.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+InGame Days;//name------------------------------------------------------------------------------------------------------
+	68;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	1250;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+		3;//condition-----------------------If 24 minutes passed
+			41.000000;//condition parameter0
+			24.000000;//condition parameter1
+	end_conditions;
+	begin_effects;
+		17;//effect number-----------------------Reset InGame Hours
+			0.000000;//parameter1
+			0.000000;//parameter2
+			41.000000;//parameter3
+			0.000000;//parameter4
+		4;//effect number-----------------------Rise InGame Days
+			1.000000;//parameter1
+			0.000000;//parameter2
+			43.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+MASTER HEALTH CONTROLLER;//name------------------------------------------------------------------------------------------------------
+  69;//identifier//{
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+    	19;//effect number------------------------------MASTER HEALTH CONTROLLER
+      156.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;//}
+Check Moving (Energy and Healing);//name------------------------------------------------------------------------------------------------------
+	70;//identifier//{
+	1;//run without calling (set to 0 if you use the script for example as a wield script)
+	0;//call position, 0=player location, 1=mouse location
+	0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+	300;//run every n milliseconds
+	none;//message
+	0;//message type, 0=quick message, 1=journal
+	none;//sound, none for nothing
+	0;//delay script for n seconds after conditions met
+	0;//disabled after first use, 0=no, 1=yes
+	begin_conditions;
+	end_conditions;
+	begin_effects;
+		19;//effect number-----------------------Check If Player Is Moving
+			157.000000;//parameter1
+			0.000001;//parameter2
+			0.000000;//parameter3
+			0.000000;//parameter4
+	end_effects;//}
+end_of_file;

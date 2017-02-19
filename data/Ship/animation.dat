@@ -1,0 +1,310 @@
+Intro- Engineer;//name-----------------------------------
+	0;//identifier
+	journal.jpg;//texture
+	2;//frames
+	Your dream was quickly interroupted by ;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+	;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+Death;//name-----------------------------------
+	1;//identifier
+	death.jpg;//texture
+	1;//frames
+	Your wounds were too great to handle...;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+Tutorial Start;//name-----------------------------------
+	2;//identifier
+	outro1.jpg;//texture
+	1;//frames
+	This Tutorial will teach you the basics of this mod, assuming that you already know how to play the original game.;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+Tutorial Win;//name-----------------------------------
+	3;//identifier
+	qoutro3.jpg;//texture
+	1;//frames
+	Congratulations, you finished the tutorial!;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+Sleep;//name-----------------------------------
+4;//identifier
+black.bmp;//texture
+1;//frames
+Your vision fades away as you fall unconscious to the ground, waking up several hours later... \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Click to continue...;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Where is the current shift?;//name-------------------------JOURNAL----------------------------
+	1000;//identifier
+	journal.jpg;//texture
+	1;//frames
+	There was no welcoming party when I woke up. They were supposed to prepare and inform us of the current situation.\ \ It is possible that the engine requires maintenance and they shut off the main power, but that doesn't explain why the doors wont open, as they were supposed to activate the backup generators. They are probably fixing it right now, so I should find a way down there to meet them.;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+(Main) Backup Generator Failure;//name-----------------------------------------------------
+1001;//identifier
+journal.jpg;//texture
+1;//frames
+It seems that the backup generator kicked in after the main engine failed. However, only one of those generators is working, as emergency lights are working but the doors are not. \ \ This will be a problem, as every door that requires some sort of access will be locked, including all bulk heads. I can however, still use a lever to open the door that require no access.\ \ I wouldn't be surprised if the other generators shut down any time soon...;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Main Dormitory Hallway is Blocked by Fire;//name-----------------------------------------------------
+1002;//identifier
+journal.jpg;//texture
+1;//frames
+Gas explosion made quite a mess out here and blocked the main dormitory hallway with its flames. \ \ I can turn off the gas flow in the gas control room under the main engineering deck, but it is a long way down there, especially with no power. I have to use the engineering maintenance shaft and navigate trough it to get there. \ \ By shutting it down, I can prevent station wide gas leaks.; 
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Backup Generator Room Is Blocked By Debris;//name-----------------------------------------------------
+1003;//identifier
+journal.jpg;//texture
+1;//frames
+I can see the other side trough this debris. It is very flimsy, so I can easily cut trough it with welding tool. I just need to find one and some fuel.; 
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Backup Generator Failed;//name-----------------------------------------------------
+1004;//identifier
+journal.jpg;//texture
+1;//frames
+Both of the generators are dead. I can still restart the backup lighting generator even though the wires are shreddered. For that, I will need to mend the wires with cable coil and wire cutter.  \ \ Backup door generator, on the other hand is busted. There is no way I can fix it. The only way to open secure doors is by enabling main power.;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) What are they?;//name-----------------------------------------------------
+1005;//identifier
+journal.jpg;//texture
+1;//frames
+I was attacked by unknown xenomorph race. I'm certain that Interdyne didn't had anything to do with them. They are most likely hostile. I need to find out how they came aboard the station.;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Main Engine;//name-----------------------------------------------------
+1006;//identifier
+journal.jpg;//texture
+1;//frames
+I arrived the the engineering engine room and as expected, few of the engines are damaged and are leaking radiation. It is a suicide if I go inside unprotected. Geiger counter and hazmat suit will fully protect me.\ \ Engines have its own backup generators, so in case of main power failure, we can start the backups and turn on the generators.;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Lights;//name-----------------------------------------------------
+1007;//identifier
+journal.jpg;//texture
+1;//frames
+The main power is up, but the lights are still out. I need to climb to the upper deck and switch it on.;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Main Power Down;//name-----------------------------------------------------
+1008;//identifier
+journal.jpg;//texture
+1;//frames
+The main generators are down, which means that without them, backups will eventually fail. \ \ I must find a way to get to the engineering deck to restart them. Without the main power, most of the machines and switches wont be able to operate.;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Something is out there...;//name-----------------------------------------------------
+1009;//identifier
+journal.jpg;//texture
+1;//frames
+What ever the fuck was behind that door, it smashed trough it in 3 hits, and it let out a really scary scream... Why didn't it come in...?\ \ I really, really hope that I am still unconscious and just dreaming, or at least hallucinating from that radiation storm that hit us...;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Anomaly;//name-----------------------------------------------------
+1010;//identifier
+journal.jpg;//texture
+1;//frames
+Is it possible that the anomaly from the outside caused those minor ones inside the station? \ \ I must avoid them until I know more.;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Backup Door Generator Unfixable;//name-------------------------COMPLETED----------------------------
+2001;//identifier
+journal.jpg;//texture
+1;//frames
+There is simply no way I can open secure areas without the backup power. I have to find another way.; 
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Main Hallway Entrance is Blocked by Fire;//name----------------------------------------------------
+2002;//identifier
+journal.jpg;//texture
+1;//frames
+I managed to shut off the gas flow. This granted me access to the other side of the pipe rupture.; 
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Debris Cleared;//name----------------------------------------------------
+2003;//identifier
+journal.jpg;//texture
+1;//frames
+I welded trough this debris and now I can finally access the backup generators and restart them.; 
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Backup Lighting Generator Fixed;//name----------------------------------------------------
+2004;//identifier
+journal.jpg;//texture
+1;//frames
+I managed to fix the backup lighting generator. At least I can see something now.; 
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Main Power Up;//name----------------------------------------------------
+2006;//identifier
+journal.jpg;//texture
+1;//frames
+Finally, the power is brought back up. Now, I can open any door that I have access to.; 
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+(Main) Lights are on;//name-----------------------------------------------------
+2007;//identifier
+journal.jpg;//texture
+1;//frames
+Power is up, lights are working, I think I'm done in this area.;
+50;//text_y
+0;//start_x
+0;//start_y
+1024;//end_x
+768;//end_y
+Medical guideline;//name-----------------------------------------------------HELP GUIDELINES
+	100;//identifier
+	journal.jpg;//texture
+	4;//frames
+	This guideline will explain you how the medical system work. \ \ HEALTH: Your health is defined as a value that gets lowered if you get any of 4 main injury types: brute, burn, toxin and respiration. You are healthy as long as your health doesn't reach the negative side. When your health reaches negative value, you will enter the critical condition. \ \ \ \ CRITICAL CONDITION: Critical condition is a state when you have limited time to heal before you die. The less health you have, the faster you will die, when your critical condition timer reaches zero, you are dead. Adrenaline can help you survive longer when in critical state. When your health is on positive side, your critical timer will slowly regenerate.; 
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+	BRUTE: This is the most common damage you will get by brute force trauma. Bruises give moderate amount of pain and are easy to heal. Heal with bruise ointment or medical patch. \ \ BURN: Burns give very high amount of pain and can be obtained by exposing yourself to the fire or acid. Heal with burn ointment or medical patch. \ \ TOXIN: Obtained by radiation poisoning and neurotoxins. They give low amount of pain and can be healed with antitoxin. \ \ RESPIRATION: Low blood count and walking in airless areas will increase your respiration damage. Respiration damage gives a lot of pain and heals automatically if you have sufficient blood and oxygen.;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+	PAIN: Pain tracks the pain value of all damage types. The more in pain you are, the slower you will move, and less consciousness you will have. Pain can be lowered with painkillers. \ \ CONSCIOUSNESS: Tracks how well you handle pain. If you are in too much pain, your vision will get smaller and you will move much slower. To gain consciousness, heal yourself and get rid of the pain.  \ \ BLOOD LEVEL: Low blood count will give respiration damage. You are fine if your blood level is above 70 percent. Less than that and you will have small respiration problems. Below 50 percent, you will slowly suffocate to death. Blood is regenerating by eating food.;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+	BLOOD LOSS: Tracks the rate of how fast you are loosing blood. You can stop bleeding by using bandages.\ \ RADIATION: Very lethal when exposed to high radiated areas. The more radiated you are, the faster the toxins will accumulate. Radiation severely impacts your consciousness. Prevent by wearing hazmat suit and heal with antitoxin.;
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+Combat guideline;//name--------------------COMBAT
+	101;//identifier
+	journal.jpg;//texture
+	2;//frames
+	This guideline will explain you how the combat system work. \ \ STAMINA: Stamina is very important when going into close combat. Each close combat weapon requires stamina. The more stamina you have, the faster it regenerates, so time your swings correctly!\ \ \ \ WEAPONS: Big and heavy weapons requires more stamina and more time to swing, they also slow you down with each swing, but they last much longer than smaller weapons and often have spread attack. Smaller weapons, such as sharp tools doesn't require much stamina, they don't need much time to strike, but they break rather easily and deals more damage. They are harder to aim with, and are often ineffective due to lack of knock back.; 
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+	You have to learn how the creature attacks, and what are their weaknesses. Each creature has it's own resistance to stun and knock-out attacks. larger creatures are harder to stun, so close combat stun weapons are not recommended, as it may need several tries to slow the beast down. Same with knock-outs. Knock-out lasts longer than stun, but requires much more effort to cause this effect, as each weapon has it's own knock-out chance.; 
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+Food and Drinks guideline;//name--------------------FOOD AND DRINKS
+	102;//identifier
+	journal.jpg;//texture
+	2;//frames
+	This guideline will explain you why food is important. \ \ There are many types of food and drinks. Each one of them has a special effect, from boosting your speed to increase in maximum health, but all of them have the same healing passive effect. \ \ Being well hydrated and sated has several positive effects: \ -Brute damage healing \ -Burn damage healing \ -Toxin damage healing \ -Faster open wound regeneration \ -Faster blood regeneration \ -Faster stamina regeneration.; 
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+	However, if you are starving or dying from thirst, you wont die, but it will severely impact your movement speed.; 
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+Storage guideline;//name--------------------STORAGE
+	103;//identifier
+	journal.jpg;//texture
+	1;//frames
+	This guideline will explain you how the storage system work. \ \ It is essential that you optimise your inventory, as it represents slots, rather than weight. This means that you can get more space with putting depleted battery cells in empty flashlights. Carry capacity can be increased by wearing various jumpsuits, backpacks or belts. Wearing suits, like hazmat suit will occupy more slots if it is not being worn by you.; 
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+Basics guideline;//name--------------------BASICS
+	104;//identifier
+	journal.jpg;//texture
+	1;//frames
+	This guideline will explain you how basic game mechanics work. \ \ Lockers, crates and storage units: \ \ Storage units gets transparent when you come close to them. This will allow you to see the items inside of them and choose which one to pick. Some lockers and crates contain specific items. Emergency (Red) wall lockers may include healing items or light source, Emergency (Blue) lockers contain oxygen tanks and breath masks...; 
+		50;//text_y
+		0;//start_x
+		0;//start_y
+		1024;//end_x
+		768;//end_y
+end_of_file;
+
+
+

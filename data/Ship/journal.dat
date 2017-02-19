@@ -1,0 +1,4 @@
+Tutorial log. Stardate;//journal entry start text
+1721424;//start date in days (for calendar dates use Julian dates)
+1;//date type, 0=stardate, 1=calendar
+end_of_file;

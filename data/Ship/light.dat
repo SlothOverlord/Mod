@@ -1,0 +1,352 @@
+Flashlight;//name-------
+	0;//identifier
+	invisible.png;//texture
+	0;//type, 0=flashlight, 1=omni
+	0;//pulse speed
+	1.0;//red color component
+	1.0;//green color component
+	1;//blue color component
+	0.2;//alpha color component
+	1.2;//light intensity
+	-1;//flash particle (-1=nothing)
+		0;//flashing speed
+		0;//particle life time   
+Blue flash;//name-------
+	1;//identifier
+	flash.png;//texture
+	1;//type, 0=flashlight, 1=omni
+	0;//pulse speed
+	0;//red color component
+	0;//green color component
+	1;//blue color component
+	1;//alpha color component
+	1.0;//light intensity
+	-1;//flash particle (-1=nothing)
+		0;//flashing speed
+		0;//particle life time
+Fire;//name-------
+	2;//identifier
+	light1.png;//texture
+	1;//type, 0=flashlight, 1=omni
+	0.5;//pulse speed
+	1;//red color component
+	0;//green color component
+	0;//blue color component
+	1;//alpha color component
+	1.0;//light intensity
+	5;//flash particle (-1=nothing)
+		150;//flashing speed
+		3000;//particle life time
+Smoke;//name-------
+	3;//identifier
+	invisible.png;//texture
+	1;//type, 0=flashlight, 1=omni
+	0;//pulse speed
+	0;//red color component
+	0;//green color component
+	0;//blue color component
+	1;//alpha color component
+	1.0;//light intensity
+	3;//flash particle (-1=nothing)
+		100;//flashing speed
+		10000;//particle life time
+White Omni;//name-------
+  4;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.95;//red color component
+  0.95;//green color component
+  0.75;//blue color component
+  0.2;//alpha color component
+  2.0;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time   
+Yellow flash;//name-------
+  5;//identifier
+  flash3.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1;//red color component
+  1;//green color component
+  0.6;//blue color component
+ 0.5;//alpha color component
+  1.0;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time
+Weapon muzzle;//name-------
+  6;//identifier
+  muzzle.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1;//red color component
+  1;//green color component
+  1;//blue color component
+ 0.8;//alpha color component
+  1.0;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time
+Red Omni;//name-------
+  7;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1;//red color component
+  0;//green color component
+  0;//blue color component
+  0.2;//alpha color component
+  1.25;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time   
+Welding;//name-------
+  8;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  50;//pulse speed
+  0;//red color component
+  0;//green color component
+  0.8;//blue color component
+  0.2;//alpha color component
+  2.0;//light intensity
+  11;//flash particle (-1=nothing)
+    50;//flashing speed
+    150;//particle life time
+Yellow Omni;//name-------
+  9;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.95;//red color component
+  0.95;//green color component
+  0.5;//blue color component
+  0.2;//alpha color component
+  1.5;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time   
+Yellow - White Flashlight;//name-------
+  10;//identifier
+  light0.png;//texture
+  0;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.95;//red color component
+  0.95;//green color component
+  0.7;//blue color component
+  0.2;//alpha color component
+  1.2;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time   
+Flare Omni;//name-------
+  11;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  150;//pulse speed
+  0.95;//red color component
+  0.2;//green color component
+  0.2;//blue color component
+  0.4;//alpha color component
+  1.0;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time   
+Water Droplets;//name-------
+  12;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0;//red color component
+  0.2;//green color component
+  0.8;//blue color component
+  0;//alpha color component
+  0.1;//light intensity
+  23;//flash particle (-1=nothing)
+    700;//flashing speed
+    70;//particle life time
+Green Glow;//name-------
+  13;//identifier
+  invisible.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0;//red color component
+  0.15;//green color component
+  0;//blue color component
+  0.2;//alpha color component
+  0.2;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time
+Light Stick Green Omni;//name-------
+  14;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.2;//red color component
+  0.95;//green color component
+  0.2;//blue color component
+  0.4;//alpha color component
+  1.0;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time   
+Light Stick Red Omni;//name-------
+  15;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.95;//red color component
+  0.2;//green color component
+  0.2;//blue color component
+  0.4;//alpha color component
+  1.0;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time   
+Light Stick Blue Omni;//name-------
+  16;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.3;//red color component
+  0.1;//green color component
+  0.6;//blue color component
+  0.4;//alpha color component
+  1.0;//light intensity
+  -1;//flash particle (-1=nothing)
+    0;//flashing speed
+    0;//particle life time   
+Air Leak;//name-------
+  17;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.0;//red color component
+  0.0;//green color component
+  0.0;//blue color component
+  0.0;//alpha color component
+  0.0;//light intensity
+  8;//flash particle (-1=nothing)
+    100;//flashing speed
+    1000;//particle life time   
+Air Leak Small;//name-------
+  18;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.0;//red color component
+  0.0;//green color component
+  0.0;//blue color component
+  0.0;//alpha color component
+  0.0;//light intensity
+  31;//flash particle (-1=nothing)
+    300;//flashing speed
+    5000;//particle life time   
+Fire (Lowered);//name-------
+  19;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0.5;//pulse speed
+  1;//red color component
+  0;//green color component
+  0;//blue color component
+  1;//alpha color component
+  1.0;//light intensity
+  5;//flash particle (-1=nothing)
+    250;//flashing speed
+    3000;//particle life time
+Force Anomaly Small;//name-------
+  20;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.1;//red color component
+  0.1;//green color component
+  0.1;//blue color component
+  0.0;//alpha color component
+  0.1;//light intensity
+  32;//flash particle (-1=nothing)
+    10;//flashing speed
+    5000;//particle life time   
+Force Anomaly Large;//name-------
+	21;//identifier
+	light1.png;//texture
+	1;//type, 0=flashlight, 1=omni
+	0;//pulse speed
+	0.2;//red color component
+	0.2;//green color component
+	0.2;//blue color component
+	0.0;//alpha color component
+	0.2;//light intensity
+	33;//flash particle (-1=nothing)
+		300;//flashing speed
+		15000;//particle life time   
+Fire Anomaly Large;//name-------
+	22;//identifier
+	light1.png;//texture
+	1;//type, 0=flashlight, 1=omni
+	0.5;//pulse speed
+	0.5;//red color component
+	1;//green color component
+	0.2;//blue color component
+	1;//alpha color component
+	1.0;//light intensity
+	34;//flash particle (-1=nothing)
+		100;//flashing speed
+		3000;//particle life time
+Fire Anomaly Small;//name-------
+	23;//identifier
+	light1.png;//texture
+	1;//type, 0=flashlight, 1=omni
+	0.5;//pulse speed
+	0.5;//red color component
+	1;//green color component
+	0.2;//blue color component
+	1;//alpha color component
+	1.0;//light intensity
+	34;//flash particle (-1=nothing)
+		250;//flashing speed
+		3000;//particle life time
+Darkness Anomaly Omni;//name-------
+	24;//identifier
+	light1.png;//texture
+	1;//type, 0=flashlight, 1=omni
+	0.5;//pulse speed
+	-1;//red color component
+	-1;//green color component
+	-1;//blue color component
+	0.5;//alpha color component
+	0.5;//light intensity
+	-1;//flash particle (-1=nothing)
+		50;//flashing speed
+		0;//particle life time
+Darkness Anomaly Flat;//name-------
+	25;//identifier
+	light0.png;//texture
+	0;//type, 0=flashlight, 1=omni
+	0.5;//pulse speed
+	-1;//red color component
+	-1;//green color component
+	-1;//blue color component
+	1;//alpha color component
+	1.0;//light intensity
+	-1;//flash particle (-1=nothing)
+		0;//flashing speed
+		0;//particle life time
+Darkness - Sleeping;//name-------
+	26;//identifier
+	light1.png;//texture
+	1;//type, 0=flashlight, 1=omni
+	0.5;//pulse speed
+	-1;//red color component
+	-1;//green color component
+	-1;//blue color component
+	1;//alpha color component
+	1;//light intensity
+	-1;//flash particle (-1=nothing)
+		50;//flashing speed
+		0;//particle life time
+end_of_file;

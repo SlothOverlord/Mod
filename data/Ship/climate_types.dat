@@ -1,0 +1,107 @@
+Base;//name---------------------------------------------------------------------
+	0;//identifier
+	1;//can be a random map
+	0;//light oscillate time
+		0;//light r phase shift
+		0;//light g phase shift
+		0;//light b phase shift
+		0;//light r amplitude
+		0;//light g amplitude
+		0;//light b amplitude
+		0.02;//light max r
+		0.02;//light max g
+		0.02;//light max b
+		0.02;//light min r
+		0.02;//light min g
+		0.02;//light min b
+	0;//night temperature
+	0;//day temperature
+	0.0;//maximum wind speed
+	-1;//rain particle, -1=no rain
+		0;//rain_particle_life_min
+		0;//rain_particle_life_max
+		0;//rain_probability (the bigger the number, the more unlikely the rain)
+		0;//rain_time_min
+		0;//rain_time_max
+		begin_effects_block;    
+		end_effects_block;
+	start_of_terrains;
+	end_of_terrains;
+	start_of_night_sounds;
+	end_of_night_sounds;
+	start_of_day_sounds;
+	end_of_day_sounds;
+	start_of_props;
+	end_of_props;
+Sewers;//name---------------------------------------------------------------------
+1;//identifier
+1;//can be a random map
+0;//light oscillate time
+  0.01;//light r phase shift
+  0.01;//light g phase shift
+  0.005;//light b phase shift
+  0;//light r amplitude
+  0;//light g amplitude
+  0;//light b amplitude
+  0.01;//light max r
+  0.05;//light max g
+  0.005;//light max b
+  0.01;//light min r
+  0.05;//light min g
+  0.005;//light min b
+0;//night temperature
+0;//day temperature
+1.0;//maximum wind speed
+-1;//rain particle, -1=no rain
+300;//rain_particle_life_min
+800;//rain_particle_life_max
+15000;//rain_probability (the bigger the number, the more unlikely the rain)
+5000;//rain_time_min
+15000;//rain_time_max
+  begin_effects_block;    
+  end_effects_block;
+start_of_terrains;
+  2;
+end_of_terrains;
+start_of_night_sounds;
+end_of_night_sounds;
+start_of_day_sounds;
+end_of_day_sounds;
+start_of_props;
+end_of_props;
+Start Area;//name---------------------------------------------------------------------
+	2;//identifier//{
+	1;//can be a random map
+	10000;//light oscillate time
+		0.4;//light r phase shift
+		0.4;//light g phase shift
+		0.4;//light b phase shift
+		0.4;//light r amplitude
+		0.4;//light g amplitude
+		0.4;//light b amplitude
+		0.4;//light max r
+		0.4;//light max g
+		0.4;//light max b
+		0.4;//light min r
+		0.4;//light min g
+		0.4;//light min b
+	0;//night temperature
+	0;//day temperature
+	1.0;//maximum wind speed
+	-1;//rain particle, -1=no rain
+		0;//rain_particle_life_min
+		0;//rain_particle_life_max
+		0;//rain_probability (the bigger the number, the more unlikely the rain)
+		0;//rain_time_min
+		0;//rain_time_max
+		begin_effects_block;    
+		end_effects_block;
+	start_of_terrains;
+	end_of_terrains;
+	start_of_night_sounds;
+	end_of_night_sounds;
+	start_of_day_sounds;
+	end_of_day_sounds;
+	start_of_props;
+	end_of_props;//}
+end_of_file;

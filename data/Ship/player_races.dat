@@ -1,0 +1,667 @@
+Not so chalenging as there are plenty of supplies to use. Suggested for people who don't like chalenges.;//Easy difficulty level description
+Chalenging for beginners.;//Medium difficulty level description
+Incredibly chalenging difficulty. Feel the real struggle to survive as resources are scarse, enemies are more agressive and abundand and your maximum and minimum welness is lowered. You will have to avoid combat and conserve your supplies to beat this difficulty.;//Hard difficulty level description
+Engineer (Character);//name------------------------------
+	0;//identifier//{
+	1;//visible in start menu
+	0;//side
+	20;//start area //12-Sart //14-E.Common //16-Main Engineering
+	journal.dat;//journal text file name
+	High negative effects of body temperature.;//description in start menu
+	0;//creature number in creatures.dat
+	0;//start animation number in animation.dat
+	20;//day length
+	10;//maximum carry weight
+	1.0;//climatic temperature change multiplier
+	ragdoll_human.png;//rag doll texture
+	computer.png;//interface texture
+	begin_weapon_frames;//must contain all weapon classes in order starting from 0//{
+		0;//weapon class number------------------------------ |Unknown|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player.png;texture name
+			2;//row that contains the 4 weapon frames
+			0.000000;//weapon_x
+			16.000000;//weapon_y
+		1;//weapon class number------------------------------ |Fire Extinguisher|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player.png;texture name
+			2;//row that contains the 4 weapon frames
+			0.000000;//weapon_x
+			16.000000;//weapon_y
+		2;//weapon class number------------------------------ |Pistol|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player.png;texture name
+			2;//row that contains the 4 weapon frames
+			0.000000;//weapon_x
+			24.000000;//weapon_y
+		3;//weapon class number------------------------------ |Fist|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player2.png;texture name
+			2;//row that contains the 4 weapon frames
+			6.000000;//weapon_x
+			20.000000;//weapon_y
+		4;//weapon class number------------------------------ |Crowbar|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player2.png;texture name
+			3;//row that contains the 4 weapon frames
+			0.000000;//weapon_x
+			16.000000;//weapon_y
+		5;//weapon class number------------------------------ |Knife|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player2.png;texture name
+			0;//row that contains the 4 weapon frames
+			6.000000;//weapon_x
+			20.000000;//weapon_y
+		6;//weapon class number------------------------------ |Rifle|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player.png;texture name
+			3;//row that contains the 4 weapon frames
+			6.000000;//weapon_x
+			32.000000;//weapon_y
+		7;//weapon class number------------------------------ |Throw Small|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player2.png;texture name
+			2;//row that contains the 4 weapon frames
+			0.000000;//weapon_x
+			16.000000;//weapon_y
+		8;//weapon class number------------------------------ |Throw Big|
+			1;//can use the weapon class (0=cannot, 1=can)
+			player2.png;texture name
+			1;//row that contains the 4 weapon frames
+			0.000000;//weapon_x
+			20.000000;//weapon_y//}
+	end_weapon_frames;
+	begin_specialties;//{
+		Health bar;//description-----------------------------------HEALTH------------------------------------//{
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			9.000000;//parameter0
+			0.000000;//parameter1
+			125.000000;//parameter2
+			0.000000;//parameter3
+		Brute damage;//description----------BRUTE-----------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			8.000000;//parameter0
+			-200.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+		Burn damage;//description----------BURN------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			7.000000;//parameter0
+			-200.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+		Toxin damage;//description----------TOXIN------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			10.000000;//parameter0
+			-200.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+		Oxygen damage;//description----------RESPIRATION------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			12.000000;//parameter0
+			-200.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+		Pain damage;//description----------PAIN------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			13.000000;//parameter0
+			200.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+		Blood Level;//description----------BLOOD------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			15.000000;//parameter0
+			0.000000;//parameter1
+			100.000000;//parameter2
+			100.000000;//parameter3
+		Blood Loss;//description----------BLOOD LOSS------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			16.000000;//parameter0
+			-100.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+		Heal Blood Loss;//description------------------
+			6;//specialty 
+			0;//difficulty level
+			none;//message
+			16;//parameter0
+			1.000000;//parameter1
+			16;//parameter2
+			0.1;//parameter3
+		Painkiller value;//description----------PAIN KILLER------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			14.000000;//parameter0
+			-250.000000;//parameter1
+			0.000000;//parameter2
+			0.000000;//parameter3
+		Welness;//description----------WELNESS------------ EASY, NORMAL
+			5;//specialty 
+			-1;//difficulty level
+			none;//message
+			44.000000;//parameter0
+			0.500000;//parameter1
+			1.500000;//parameter2
+			0.800000;//parameter3
+		Welness;//description----------WELNESS------------ HARD
+			5;//specialty 
+			2;//difficulty level
+			none;//message
+			44.000000;//parameter0
+			0.300000;//parameter1
+			1.200000;//parameter2
+			0.300000;//parameter3
+Painkiller wears off;//description------------------Painkiller wears off
+  6;//specialty 
+    0;//difficulty level
+    none;//message
+    14;//parameter0
+    1.000000;//parameter1
+    14;//parameter2
+    0.5;//parameter3
+Death timer;//description----------CRITICAL TIMER------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    11.000000;//parameter0
+    0.000000;//parameter1
+    1000.000000;//parameter2
+    1000.000000;//parameter3
+Radiation meter;//description-----------------------------------------------------------------------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    5.000000;//parameter0
+    0.000000;//parameter1
+    50.000000;//parameter2
+    0.000000;//parameter3
+Heal Radiation;//description------------------
+  7;//specialty 
+    0;//difficulty level
+    none;//message
+    4;//parameter0
+    0.010000;//parameter1
+    4;//parameter2
+    -0.05;//parameter3//}
+		Metal Bar;//description--------------------------------------Weapon Durability - Metal Bar-----------------------//{
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    22.000000;//parameter0
+    0.000000;//parameter1
+    200.000000;//parameter2
+    200.000000;//parameter3
+Crowbar;//description---------------------------------------Crowbar
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    0.000000;//parameter1
+    200.000000;//parameter2
+    200.000000;//parameter3
+Makeshift Stun Prod;//description---------------------------------------Makeshift Stun Prod
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    30.000000;//parameter0
+    0.000000;//parameter1
+    200.000000;//parameter2
+    200.000000;//parameter3
+Screwdriver;//description---------------------------------------Screwdriver
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    24.000000;//parameter0
+    0.000000;//parameter1
+    200.000000;//parameter2
+    200.000000;//parameter3
+Wirecutters//description---------------------------------------Wirecutters
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    25.000000;//parameter0
+    0.000000;//parameter1
+    200.000000;//parameter2
+    200.000000;//parameter3
+		Taser//description---------------------------------------Taser Ammo
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			34.000000;//parameter0
+			0.000000;//parameter1
+			120.000000;//parameter2
+			0.000000;//parameter3
+		9mm Ammo//description---------------------------------------9mm Ammo
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			35.000000;//parameter0
+			0.000000;//parameter1
+			16.000000;//parameter2
+			0.000000;//parameter3
+		Nail Gun Ammo//description---------------------------------------Nail Gun Ammo
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			38.000000;//parameter0
+			0.000000;//parameter1
+			25.000000;//parameter2
+			0.000000;//parameter3
+		Pump Shotgun Ammo//description---------------------------------------Pump Shotgun Ammo
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			36.000000;//parameter0
+			0.000000;//parameter1
+			8.000000;//parameter2
+			0.000000;//parameter3//}
+		Hunger;//description------------------//{
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			6.000000;//parameter0
+			0.000000;//parameter1
+			50.000000;//parameter2
+			25.000000;//parameter3
+		Thirst;//description------------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			19.000000;//parameter0
+			0.000000;//parameter1
+			50.000000;//parameter2
+			25.000000;//parameter3
+		Player Can Eat;//description------------------
+			5;//specialty 
+			0;//difficulty level
+			none;//message
+			39.000000;//parameter0
+			0.000000;//parameter1
+			3.000000;//parameter2
+			3.000000;//parameter3
+Flashlight Energy;//description----------------------------------------------UTILITY
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    18.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+Geiger Counter Energy;//description------------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    26.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+Health Scanner Energy;//description------------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    27.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+Activity;//description----------ACTIVITY------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    17.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+Reduce Activity;//description------------------REDUCE ACTIVITY
+  7;//specialty 
+    0;//difficulty level
+    none;//message
+    17;//parameter0
+    0.000000;//parameter1
+    17;//parameter2
+    -1;//parameter3
+Consciousness;//description----------CONSCIOUSNESS------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    250.000000;//parameter2
+    0.000000;//parameter3
+Blurry HUD;//description----------BLURRY HUD------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+Very Blurry HUD;//description----------BLURRY HUD------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    2.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+Very Blurry HUD;//description----------Health HUD------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    4.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+Gain Consciousness;//description------------------
+  7;//specialty 
+    0;//difficulty level
+    none;//message
+    20;//parameter0
+    0.010000;//parameter1
+    20;//parameter2
+    -1.25;//parameter3
+Throw Range;//description----------THROW RANGE------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    28.000000;//parameter0
+    0.000000;//parameter1
+    30.000000;//parameter2
+    0.000000;//parameter3
+Reduce Throw Range;//description------------------
+  7;//specialty 
+    0;//difficulty level
+    none;//message
+    28.000000;//parameter0
+    0.000001;//parameter1
+    28.000000;//parameter2
+    -30.000000;//parameter3
+Oxygen;//description----------OXYGEN------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    29.000000;//parameter0
+    0.000000;//parameter1
+    900.000000;//parameter2
+    0.000000;//parameter3
+Timer;//description----------TIMER------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    33.000000;//parameter0
+    0.000000;//parameter1
+    10000.000000;//parameter2
+    0.000000;//parameter3
+Reduce Timer;//description------------------
+  7;//specialty 
+    0;//difficulty level
+    none;//message
+    33.000000;//parameter0
+    0.000001;//parameter1
+    33.000000;//parameter2
+    -1.000000;//parameter3
+Stamina;//description----------STAMINA------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    3.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+Energy;//description----------ENERGY------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    42.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+Reduce Energy;//description------------------
+  7;//specialty 
+    0;//difficulty level
+    none;//message
+    42;//parameter0
+    0.010000;//parameter1
+    42;//parameter2
+    -0.015;//parameter3
+Ingame Minutes;//description----------INGAME MINUTES------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    40.000000;//parameter0
+    0.000000;//parameter1
+    59.000000;//parameter2
+    0.000000;//parameter3
+Ingame Hours;//description----------INGAME HOURS------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    41.000000;//parameter0
+    0.000000;//parameter1
+    23.000000;//parameter2
+    0.000000;//parameter3
+InGame Days;//description----------INGAME DAYS------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    43.000000;//parameter0
+    0.000000;//parameter1
+    200.000000;//parameter2
+    0.000000;//parameter3
+Recover Stamina I;//description------------------
+  6;//specialty 
+    0;//difficulty level
+    none;//message
+    3.000000;//parameter0
+    1.000000;//parameter1
+    3.000000;//parameter2
+    5.000000;//parameter3
+Recover Stamina II;//description------------------
+  6;//specialty 
+    0;//difficulty level
+    none;//message
+    3;//parameter0
+    0.600000;//parameter1
+    3;//parameter2
+    -1.5;//parameter3
+Recover Stamina III;//description------------------
+  6;//specialty 
+    0;//difficulty level
+    none;//message
+    3;//parameter0
+    0.150000;//parameter1
+    3;//parameter2
+    -1.0;//parameter3
+Drain Conciousness if Conciousness too high;//description
+  7;//specialty 
+    0;//difficulty level
+    none;//message
+    20;//parameter0
+    1.0001;//parameter1
+    20;//parameter2
+    -25.0;//parameter3
+Armor;//description----------ARMOR------------
+  5;//specialty 
+    0;//difficulty level
+    none;//message
+    37.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+			0.000000;//parameter3//}
+		Right Hand Slot;//description------------------------SLOTS-----------------------------//{
+			2;//specialty 
+			0;//difficulty level
+			slot_handr.png;//message
+			0;//parameter0
+			-5;//parameter1
+			100;//parameter2
+			0;//parameter3
+		Left Hand Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot_handl.png;//message
+			1;//parameter0
+			195;//parameter1
+			100;//parameter2
+			0;//parameter3
+		Suit Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot_exosuit.png;//message
+			2;//parameter0
+			60;//parameter1
+			60;//parameter2
+			0;//parameter3
+		Feet Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot.png;//message
+			3;//parameter0
+			95;//parameter1
+			200;//parameter2
+			0;//parameter3
+		Head Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot.png;//message
+			4;//parameter0
+			95;//parameter1
+			-60;//parameter2
+			0;//parameter3
+		Utility I Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot_utility1.png;//message
+			5;//parameter0
+			-5;//parameter1
+			-60;//parameter2
+			0;//parameter3
+		Utility II Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot_utility2.png;//message
+			7;//parameter0
+			-5;//parameter1
+			20;//parameter2
+			0;//parameter3
+		Backpack Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot.png;//message
+			6;//parameter0
+			195;//parameter1
+			20;//parameter2
+			0;//parameter3
+		Tank Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot.png;//message
+			8;//parameter0
+			-5;//parameter1
+			240;//parameter2
+			0;//parameter3
+		Mask Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot.png;//message
+			9;//parameter0
+			-5;//parameter1
+			180;//parameter2
+			0;//parameter3
+		Uniform Slot;//description
+			2;//specialty  
+			0;//difficulty level
+			slot_uniform.png;//message
+			10;//parameter0
+			130;//parameter1
+			60;//parameter2
+			0;//parameter3//}
+		Start with Fist;//description------------------------START ITEMS-----------------------//{
+			3;//specialty  
+			0;//difficulty level
+			none;//message
+			9;//parameter0
+			1;//parameter1
+			0;//parameter2
+			0;//parameter3
+		Can't drop Fist;//description-----------------------------------------------
+			4;//specialty  
+			0;//difficulty level
+			none;//message
+			9;//parameter0
+			0;//parameter1
+			0;//parameter2
+			0;//parameter3
+		Can't drop Journal;//description-----------------------------------------------
+			0;//specialty  
+			0;//difficulty level
+			none;//message
+			10;//parameter0
+			0;//parameter1
+			0;//parameter2
+			0;//parameter3
+		Start with Journal;//description-----------------------------------------------
+			3;//specialty  
+			0;//difficulty level
+			none;//message
+			38;//parameter0
+			1;//parameter1
+			0;//parameter2
+			0;//parameter3
+		Start with Open Inventory I/X;//description-----------------------------------------------
+			3;//specialty  
+			0;//difficulty level
+			none;//message
+			0;//parameter0
+			1;//parameter1
+			0;//parameter2
+			0;//parameter3
+		Start with (HELPER) Item Consumption Script;//description-----------------------------------------------
+			3;//specialty  
+			0;//difficulty level
+			none;//message
+			10006;//parameter0
+			1;//parameter1
+			0;//parameter2
+			0;//parameter3//}//}
+	end_specialties;
+	begin_disabled_endings;
+	end_disabled_endings;
+	begin_disabled_item_classes;
+	end_disabled_item_classes;//}
+end_of_file;
+
+
+difficulty levels:
+-2=easy
+-1=easy,medium
+0=easy,medium,hard
+1=medium,hard
+2=hard
+
+
+specialties:
+0=cannot drop item class parameter0
+1=?
+2=has item slot parameter0, ragdoll x=parameter1, ragdoll y=parameter2, texture=message
+3=start with item parameter0 amount parameter1
+4=cannot drop item parameter0
+5=has bar number parameter0 from bars.dat with minimum of parameter1 and maximum of parameter2 and current value of parameter3 (cumulative to creatures.dat specialties)
+6=if bar parameter0 < parameter1 percent, increase bar parameter2 by parameter3
+7=if bar parameter0 > parameter1 percent, increase bar parameter2 by parameter3

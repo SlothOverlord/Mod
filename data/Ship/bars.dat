@@ -1,0 +1,1084 @@
+Creature Health;//name----------------------------------------------------------------------------
+	0;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-10;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.0;//red color component for minimum
+	1;//green color component for minimum
+	0.4;//blue color component for minimum
+	0;//red color component for maximum
+	1;//green color component for maximum
+	0.4;//blue color component for maximum
+Blurry HUD;//name----------------------------------------------------------------------------
+	1;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	0;//location x, pixels from anchor point
+	0;//location y, pixels from anchor point
+	bar.png;//bar picture
+	Blurry_1.png;//background picture
+	-1024;//background picture x offset
+	-768;//background picture y offset
+	1024;//background picture width
+	768;//background picture height
+	0.7;//height    
+	200;//length in pixels for maximum (negative = bar increases to left)
+	0.6;//red color component for minimum
+	1;//green color component for minimum
+	0;//blue color component for minimum
+	0.6;//red color component for maximum
+	0;//green color component for maximum
+	1;//blue color component for maximum
+Black HUD;//name----------------------------------------------------------------------------
+	2;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	0;//location x, pixels from anchor point
+	0;//location y, pixels from anchor point
+	bar.png;//bar picture
+	Blurry_2.png;//background picture
+	-1024;//background picture x offset
+	-768;//background picture y offset
+	1024;//background picture width
+	768;//background picture height
+	0.7;//height    
+	200;//length in pixels for maximum (negative = bar increases to left)
+	0.6;//red color component for minimum
+	1;//green color component for minimum
+	0;//blue color component for minimum
+	0.6;//red color component for maximum
+	0;//green color component for maximum
+	1;//blue color component for maximum
+Stamina;//name---------------------------------------------------------------------------- / INTERFACE HUD
+	3;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-45;//location y, pixels from anchor point
+	bar.png;//bar picture
+	hud_0.png;//background picture
+	122;//background picture x offset
+	-724;//background picture y offset
+	128;//background picture width
+	768;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.5;//red color component for minimum
+	0.8;//green color component for minimum
+	1;//blue color component for minimum
+	0.5;//red color component for maximum
+	0.8;//green color component for maximum
+	0.5;//blue color component for maximum
+Fire Health / Health Scanner HUD;//name----------------------------------------------------------------------------
+	4;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	0;//location x, pixels from anchor point
+	0;//location y, pixels from anchor point
+	bar.png;//bar picture
+	health_scanner_hud.png;//background picture
+	-1100;//background picture x offset
+	-284;//background picture y offset
+	384;//background picture width
+	384;//background picture height
+	0.7;//height    
+	-185;//length in pixels for maximum (negative = bar increases to left)
+	0.8;//red color component for minimum
+	1.0;//green color component for minimum
+	0;//blue color component for minimum
+	0.8;//red color component for maximum
+	1;//green color component for maximum
+	0;//blue color component for maximum
+Radiation;//name----------------------------------------------------------------------------
+	5;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-140;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	185;//length in pixels for maximum (negative = bar increases to left)
+	0.8;//red color component for minimum
+	1.0;//green color component for minimum
+	0;//blue color component for minimum
+	0.8;//red color component for maximum
+	1;//green color component for maximum
+	0;//blue color component for 
+Nutrition;//name----------------------------------------------------------------------------
+	6;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-25;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.95;//red color component for minimum
+	0.95;//green color component for minimum
+	0.5;//blue color component for minimum
+	0.8;//red color component for maximum
+	1;//green color component for maximum
+	0.3;//blue color component for 
+Burn damage;//name----------------------------------------------------------------------------
+	7;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-185;//length in pixels for maximum (negative = bar increases to left)
+	0.8;//red color component for minimum
+	1;//green color component for minimum
+	0;//blue color component for minimum
+	0.8;//red color component for maximum
+	1;//green color component for maximum
+	0;//blue color component for 
+Brute damage;//name----------------------------------------------------------------------------
+	8;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-40;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-185;//length in pixels for maximum (negative = bar increases to left)
+	0.8;//red color component for minimum
+	0;//green color component for minimum
+	0;//blue color component for minimum
+	0.8;//red color component for maximum
+	0;//green color component for maximum
+	0;//blue color component for 
+Health;//name----------------------------------------------------------------------------
+	9;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-15;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	1.2;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.5;//red color component for minimum
+	0;//green color component for minimum
+	0.2;//blue color component for minimum
+	0;//red color component for maximum
+	1;//green color component for maximum
+	0.4;//blue color component for maximum
+Toxin damage;//name----------------------------------------------------------------------------
+	10;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-60;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-185;//length in pixels for maximum (negative = bar increases to left)
+	0;//red color component for minimum
+	1;//green color component for minimum
+	0;//blue color component for minimum
+	0;//red color component for maximum
+	1;//green color component for maximum
+	0;//blue color component for maximum
+Critical timer;//name----------------------------------------------------------------------------
+	11;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	0;//show number
+	0;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	12;//location x, pixels from anchor point
+	20;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	1.8;//height    
+	1000;//length in pixels for maximum (negative = bar increases to left)
+	0;//red color component for minimum
+	1.0;//green color component for minimum
+	0;//blue color component for minimum
+	0;//red color component for maximum
+	1;//green color component for maximum
+	0;//blue color component for maximum
+Respiration damage;//name----------------------------------------------------------------------------
+	12;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-70;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-185;//length in pixels for maximum (negative = bar increases to left)
+	0;//red color component for minimum
+	0.4;//green color component for minimum
+	1;//blue color component for minimum
+	0;//red color component for maximum
+	0.4;//green color component for maximum
+	1;//blue color component for maximum
+Pain;//name----------------------------------------------------------------------------
+	13;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-100;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	185;//length in pixels for maximum (negative = bar increases to left)
+	0.4;//red color component for minimum
+	1;//green color component for minimum
+	0;//blue color component for minimum
+	0.4;//red color component for maximum
+	0;//green color component for maximum
+	1;//blue color component for maximum
+Pain Killer;//name----------------------------------------------------------------------------
+	14;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	15;//location x, pixels from anchor point
+	-10;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-185;//length in pixels for maximum (negative = bar increases to left)
+	0.4;//red color component for minimum
+	0;//green color component for minimum
+	1;//blue color component for minimum
+	0.4;//red color component for maximum
+	0;//green color component for maximum
+	1;//blue color component for maximum
+Blood level;//name----------------------------------------------------------------------------
+	15;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-90;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	185;//length in pixels for maximum (negative = bar increases to left)
+	0.6;//red color component for minimum
+	0;//green color component for minimum
+	0;//blue color component for minimum
+	0.6;//red color component for maximum
+	0;//green color component for maximum
+	0;//blue color component for maximum
+Blood loss;//name----------------------------------------------------------------------------
+	16;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-130;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-185;//length in pixels for maximum (negative = bar increases to left)
+	0.6;//red color component for minimum
+	0;//green color component for minimum
+	0;//blue color component for minimum
+	0.6;//red color component for maximum
+	0;//green color component for maximum
+	0;//blue color component for maximum
+Activity;//name----------------------------------------------------------------------------
+	17;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-40;//location x, pixels from anchor point
+	-247;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	1;//height    
+	-180;//length in pixels for maximum (negative = bar increases to left)
+	0.3;//red color component for minimum
+	0.4;//green color component for minimum
+	0.5;//blue color component for minimum
+	0.6;//red color component for maximum
+	0.7;//green color component for maximum
+	0.8;//blue color component for maximum
+Flashlight Energy;//name----------------------------------------------------------------------------
+	18;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	1;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-8;//location x, pixels from anchor point
+	320;//location y, pixels from anchor point
+	bar.png;//bar picture
+	flashlight.png;//background picture
+	-80;//background picture x offset
+	-57;//background picture y offset
+	52;//background picture width
+	52;//background picture height
+	0.8;//height    
+	-113;//length in pixels for maximum (negative = bar increases to left)
+	0.1;//red color component for minimum
+	0.3;//green color component for minimum
+	0.6;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.4;//green color component for maximum
+	1;//blue color component for maximum
+Hydration;//name----------------------------------------------------------------------------
+	19;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-35;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.15;//red color component for minimum
+	0.6;//green color component for minimum
+	1;//blue color component for minimum
+	0.1;//red color component for maximum
+	0.5;//green color component for maximum
+	0.7;//blue color component for 
+Consciousness;//name----------------------------------------------------------------------------
+	20;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	25;//location x, pixels from anchor point
+	-110;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	185;//length in pixels for maximum (negative = bar increases to left)
+	0.6;//red color component for minimum
+	1;//green color component for minimum
+	0;//blue color component for minimum
+	0.6;//red color component for maximum
+	0;//green color component for maximum
+	1;//blue color component for maximum
+Battery Energy;//name----------------------------------------------------------------------------
+	21;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	1;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-8;//location x, pixels from anchor point
+	320;//location y, pixels from anchor point
+	bar.png;//bar picture
+	flashlight.png;//background picture
+	-88;//background picture x offset
+	-65;//background picture y offset
+	64;//background picture width
+	64;//background picture height
+	0.8;//height    
+	-113;//length in pixels for maximum (negative = bar increases to left)
+	0.3;//red color component for minimum
+	0.3;//green color component for minimum
+	0.8;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.4;//green color component for maximum
+	1;//blue color component for maximum
+Metal rod - Durability;//name----------------------------------------------------------------------------
+	22;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	0;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	0.7;//red color component for minimum
+	0.4;//green color component for minimum
+	0.7;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.1;//green color component for maximum
+	0.9;//blue color component for maximum
+Crowbar - Durability;//name----------------------------------------------------------------------------
+	23;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	0;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	0.7;//red color component for minimum
+	0.4;//green color component for minimum
+	0.7;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.1;//green color component for maximum
+	0.9;//blue color component for maximum
+Screwdriver - Durability;//name----------------------------------------------------------------------------
+	24;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	0;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	0.7;//red color component for minimum
+	0.4;//green color component for minimum
+	0.7;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.1;//green color component for maximum
+	0.9;//blue color component for maximum
+Wirecutter - Durability;//name----------------------------------------------------------------------------
+	25;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	0;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	0.7;//red color component for minimum
+	0.4;//green color component for minimum
+	0.7;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.1;//green color component for maximum
+	0.9;//blue color component for maximum
+Geiger Counter Energy;//name----------------------------------------------------------------------------
+	26;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	1;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-8;//location x, pixels from anchor point
+	128;//location y, pixels from anchor point
+	bar.png;//bar picture
+	geiger.png;//background picture
+	-80;//background picture x offset
+	-57;//background picture y offset
+	52;//background picture width
+	52;//background picture height
+	0.8;//height    
+	-113;//length in pixels for maximum (negative = bar increases to left)
+	0.1;//red color component for minimum
+	0.3;//green color component for minimum
+	0.6;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.4;//green color component for maximum
+	1;//blue color component for maximum
+Med-Scanner Energy;//name----------------------------------------------------------------------------
+	27;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	1;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-8;//location x, pixels from anchor point
+	224;//location y, pixels from anchor point
+	bar.png;//bar picture
+	health_scanner_on.png;//background picture
+	-88;//background picture x offset
+	-65;//background picture y offset
+	64;//background picture width
+	64;//background picture height
+	0.8;//height    
+	-113;//length in pixels for maximum (negative = bar increases to left)
+	0.1;//red color component for minimum
+	0.3;//green color component for minimum
+	0.6;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.4;//green color component for maximum
+	1;//blue color component for maximum
+Throw Range;//name----------------------------------------------------------------------------
+	28;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	415;//location x, pixels from anchor point
+	-560;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	1;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.2;//red color component for minimum
+	0.2;//green color component for minimum
+	0.7;//blue color component for minimum
+	0.2;//red color component for maximum
+	0.2;//green color component for maximum
+	0.7;//blue color component for maximum
+Oxygen;//name----------------------------------------------------------------------------
+	29;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)  
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-55;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.7;//red color component for minimum
+	0.9;//green color component for minimum
+	0.7;//blue color component for minimum
+	0.9;//red color component for maximum
+	0.95;//green color component for maximum
+	0.9;//blue color component for maximum
+Makeshift Stun Prod - Energy;//name----------------------------------------------------------------------------
+	30;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	0;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	0.3;//red color component for minimum
+	0.3;//green color component for minimum
+	0.8;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.4;//green color component for maximum
+	1;//blue color component for maximum
+Creature Stun Resistance;//name----------------------------------------------------------------------------
+	31;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-10;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.0;//red color component for minimum
+	1;//green color component for minimum
+	0.4;//blue color component for minimum
+	0;//red color component for maximum
+	1;//green color component for maximum
+	0.4;//blue color component for maximum
+Creature Knock-out Resistance;//name----------------------------------------------------------------------------
+	32;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-10;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.0;//red color component for minimum
+	1;//green color component for minimum
+	0.4;//blue color component for minimum
+	0;//red color component for maximum
+	1;//green color component for maximum
+	0.4;//blue color component for maximum
+Timer;//name----------------------------------------------------------------------------
+	33;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-10;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.0;//red color component for minimum
+	1;//green color component for minimum
+	0.4;//blue color component for minimum
+	0;//red color component for maximum
+	1;//green color component for maximum
+	0.4;//blue color component for maximum
+Taser - Energy;//name----------------------------------------------------------------------------
+	34;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	0;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	0.3;//red color component for minimum
+	0.3;//green color component for minimum
+	0.8;//blue color component for minimum
+	0.4;//red color component for maximum
+	0.4;//green color component for maximum
+	1;//blue color component for maximum
+9mm Pistol - Ammo;//name----------------------------------------------------------------------------
+	35;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	1;//red color component for minimum
+	1;//green color component for minimum
+	0.6;//blue color component for minimum
+	1;//red color component for maximum
+	1;//green color component for maximum
+	0.3;//blue color component for 
+Pump Shotgun - Ammo;//name----------------------------------------------------------------------------
+	36;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	1;//red color component for minimum
+	1;//green color component for minimum
+	0.6;//blue color component for minimum
+	1;//red color component for maximum
+	1;//green color component for maximum
+	0.3;//blue color component for 
+Armor;//name
+	37;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-21;//location x, pixels from anchor point
+	-53;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0;//height    
+	0;//length in pixels for maximum (negative = bar increases to left)
+	1;//red color component for minimum
+	0.2;//green color component for minimum
+	0;//blue color component for minimum
+	0;//red color component for maximum
+	0.2;//green color component for maximum
+	1;//blue color component for maximum
+Nail Gun - Ammo;//name----------------------------------------------------------------------------
+	38;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	1;//red color component for minimum
+	1;//green color component for minimum
+	0.6;//blue color component for minimum
+	1;//red color component for maximum
+	1;//green color component for maximum
+	0.3;//blue color component for 
+Eating Disabler Script;//name----------------------------------------------------------------------------
+	39;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	0;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-220;//location x, pixels from anchor point
+	-50;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.5;//height    
+	180;//length in pixels for maximum (negative = bar increases to left)
+	1;//red color component for minimum
+	1;//green color component for minimum
+	0.6;//blue color component for minimum
+	1;//red color component for maximum
+	1;//green color component for maximum
+	0.3;//blue color component for maximum
+Ingame Minutes;//name
+  40;//identifier
+  0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+    0;//parameter0
+  1;//visible (only applicable for player's bars)
+  1;//visible on enemies
+    1;//show number
+    1;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+    -32;//location x, pixels from anchor point
+    13;//location y, pixels from anchor point
+    bar.png;//bar picture
+    none;//background picture
+    0;//background picture x offset
+    0;//background picture y offset
+    0;//background picture width
+    0;//background picture height
+    0;//height    
+    0;//length in pixels for maximum (negative = bar increases to left)
+    0;//red color component for minimum
+    1;//green color component for minimum
+    0;//blue color component for minimum
+    0;//red color component for maximum
+    1;//green color component for maximum
+    0;//blue color component for maximum
+Ingame Hours;//name
+  41;//identifier
+  0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+    0;//parameter0
+  1;//visible (only applicable for player's bars)
+  1;//visible on enemies
+    1;//show number
+    1;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+    -52;//location x, pixels from anchor point
+    13;//location y, pixels from anchor point
+    bar.png;//bar picture
+    none;//background picture
+    0;//background picture x offset
+    0;//background picture y offset
+    0;//background picture width
+    0;//background picture height
+    0;//height    
+    0;//length in pixels for maximum (negative = bar increases to left)
+    0;//red color component for minimum
+    1;//green color component for minimum
+    0;//blue color component for minimum
+    0;//red color component for maximum
+    1;//green color component for maximum
+    0;//blue color component for maximum
+Energy;//name----------------------------------------------------------------------------
+	42;//identifier
+	0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+	0;//parameter0
+	1;//visible (only applicable for player's bars)
+	1;//visible on enemies
+	1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-55;//location y, pixels from anchor point
+	bar.png;//bar picture
+	none;//background picture
+	0;//background picture x offset
+	0;//background picture y offset
+	0;//background picture width
+	0;//background picture height
+	0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.5;//red color component for minimum
+	0.5;//green color component for minimum
+	1;//blue color component for minimum
+	0.5;//red color component for maximum
+	0.5;//green color component for maximum
+	0.7;//blue color component for maximum
+Ingame Days;//name
+  43;//identifier
+  0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+    0;//parameter0
+  1;//visible (only applicable for player's bars)
+  1;//visible on enemies
+    1;//show number
+    1;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+    -72;//location x, pixels from anchor point
+    13;//location y, pixels from anchor point
+    bar.png;//bar picture
+    clock.png;//background picture
+    -18;//background picture x offset
+    -13;//background picture y offset
+    92;//background picture width
+    40;//background picture height
+    0;//height    
+    0;//length in pixels for maximum (negative = bar increases to left)
+    0;//red color component for minimum
+    1;//green color component for minimum
+    0;//blue color component for minimum
+    0;//red color component for maximum
+    1;//green color component for maximum
+    0;//blue color component for maximum
+Wellness;//name
+  44;//identifier
+  0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+    0;//parameter0
+  1;//visible (only applicable for player's bars)
+  1;//visible on enemies
+    1;//show number
+	3;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+	-250;//location x, pixels from anchor point
+	-65;//location y, pixels from anchor point
+    bar.png;//bar picture
+    none;//background picture
+    0;//background picture x offset
+    0;//background picture y offset
+    0;//background picture width
+    0;//background picture height
+    0.7;//height    
+	-200;//length in pixels for maximum (negative = bar increases to left)
+	0.5;//red color component for minimum
+	0.5;//green color component for minimum
+	0.1;//blue color component for minimum
+	0.5;//red color component for maximum
+	0.5;//green color component for maximum
+	0.3;//blue color component for maximum
+end_of_file;
+
+maximum amount of bars is 100
+bar types 1 and 4 work both ways, if you change the amount of the bar with effect 4, the respective values change

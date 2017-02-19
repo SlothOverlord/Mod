@@ -1,0 +1,1777 @@
+Player Engineer Intro;//name-----------------------PLAYER ENGINEER START---------------------------
+	0;//identifier//{
+	;//text
+	8000;//duration
+	1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Intro;//name--------------------------------------------
+	1;//identifier//{
+	Urghhh..;//text
+	6000;//duration
+	2;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Intro;//name--------------------------------------------
+	2;//identifier//{
+	This damn wake up... I hate it...;//text
+	6000;//duration
+	3;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Intro;//name--------------------------------------------
+	3;//identifier//{
+	;//text
+	6000;//duration
+	4;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Intro;//name--------------------------------------------
+	4;//identifier//{
+	There was supposed to be someone here to help me up...;//text
+	6000;//duration
+	6;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Journal updated;//name--------------------------------------------
+	5;//identifier//{
+	-Journal updated-;//text
+	6000;//duration
+	1000;//next dialog line (-1=none)
+	1;//text color r
+	0.6;//text color g
+	0;//text color b//}
+Player Engineer Intro;//name--------------------------------------------
+	6;//identifier//{
+	I need to suit up and clean myself from this sticky mess... I should go and check those lockers.;//text
+	2000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Found The Jumpsuit;//name--------------------------------------------
+	7;//identifier//{
+	Alright, let's equip it and exit the room.;//text
+	2000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Exits The Room;//name--------------------------------------------
+	8;//identifier//{
+	Hmmmm... The power seems to be out, what the hell is going on?;//text
+	6000;//duration
+	9;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Exits The Room;//name--------------------------------------------
+	9;//identifier//{
+	Best to grab some lightsticks too.;//text
+	6000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Examines Cryo Tube;//name--------------------------------------------
+	9;//identifier//{
+	Reggis Wolf... Alright... Now to find my locker.;//text
+	7000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Examines Locker;//name---------------------------------------------------------------------------
+	10;//identifier//{
+	Reggis Wolf... This is the one. Looks like I am an engineer on this ship...;//text
+	8000;//duration
+	11;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Examines Locker;//name---------------------------------
+	11;//identifier//{
+	Interestingly, I know everything relating to engineering and mechanics, but not my name, hehehe...;//text
+	8000;//duration
+	12;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Examines Locker;//name---------------------------------
+	12;//identifier//{
+	Hmm.. I thought that the previous shift was supposed to wake us up and prepare us.;//text
+	8000;//duration
+	13;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Examines Locker;//name---------------------------------
+	13;//identifier//{
+	Well... Let's find them then. Let's check out that door.;//text
+	8000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Examines Door;//name---------------------------------
+	14;//identifier//{
+	This can't be good. The door is not powered, and the backup generator isn't working.;//text
+	8000;//duration
+	15;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Examines Door;//name---------------------------------
+	15;//identifier//{
+	I might need to use the vents on the floor to get out of this room.;//text
+	8000;//duration
+	16;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Examines Door;//name---------------------------------
+	16;//identifier//{
+	It is possible that the engine malfunctioned and the current shift is trying to fix it.;//text
+	8000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player engineer Enters Cryo Vent;//name---------------------------------
+	17;//identifier//{
+	It's dark in here... I need to find a vent that isn't secured by screws.;//text
+	8000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Sees Blocked Cryo Vents;//name---------------------------------
+	18;//identifier//{
+	Heh, this path is blocked... Looks like we have a lot to do this shift.;//text
+	6000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Exits Cryo Vents;//name---------------------------------
+	19;//identifier//{
+	This one is open. Let's climb up there.;//text
+	6000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Exits Cryo Area;//name---------------------------------------------------------------------------
+	20;//identifier//{
+	Alright. Now to find someone to explain me what is going on.;//text
+	8000;//duration
+	21;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Exits Cryo Area;//name---------------------------------------------------------------------------
+	21;//identifier//{
+	This is a huge ship, from what I can remember.;//text
+	8000;//duration
+	22;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Exits Cryo Area;//name---------------------------------------------------------------------------
+	22;//identifier//{
+	My best chances of finding someone would be in the engine room, which should be few decks below.;//text
+	8000;//duration
+	5;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Enters Main Engineering Area;//name---------------------------------------------------------------------------
+	23;//identifier//{
+	This is the main engineering deck. They should be in here.;//text
+	8000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Shouts For Anyone;//name---------------------------------------------------------------------------
+	24;//identifier//{
+	Helooo? Is anyone in here?.;//text
+	6000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Finds Crowbar;//name---------------------------------------------------------------------------
+	30;//identifier//{
+	Nice! This will come in handy.;//text
+	3000;//duration
+	31;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer (Cinematic I);//name---------------------------------------------------------------------------
+	31;//identifier//{
+	Wha-...;//text
+	2000;//duration
+	2000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer (Cinematic I);//name---------------------------------------------------------------------------
+	32;//identifier//{
+	HOLY SHIT!;//text
+	3000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Hears Alien Noise;//name---------------------------------------------------------------------------
+	33;//identifier//{
+	;//text
+	1500;//duration
+	42;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer (Cinematic I);//name---------------------------------------------------------------------------
+	34;//identifier//{
+	What... What is happening...!?!;//text
+	3000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer (Cinematic I);//name---------------------------------------------------------------------------
+	35;//identifier//{
+	They ripped him in half...;//text
+	4000;//duration
+	36;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer (Cinematic I);//name---------------------------------------------------------------------------
+	36;//identifier//{
+	I need to... Urghh... ;//text
+	4000;//duration
+	37;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer (Cinematic I);//name---------------------------------------------------------------------------
+	37;//identifier//{
+	That guy was still alive when I came, right..? Maybe there are more...;//text
+	6000;//duration
+	38;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer (Cinematic I);//name---------------------------------------------------------------------------
+	38;//identifier//{
+	There is no fucking way I'm going to restart engines alone...;//text
+	6000;//duration
+	39;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer (Cinematic I);//name---------------------------------------------------------------------------
+	39;//identifier//{
+	At least I can open some doors with this crowbar... Let's see where they lead us, I'll think of something on the way...;//text
+	10000;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Security Guy (Cinematic I);//name------------------------------------------------------------------------------
+	40;//identifier//{
+	WHAT THE FUCK ARE YOU DOING THERE?;//text
+	4000;//duration
+	41;//next dialog line (-1=none)
+	0.8;//text color r
+	0.2;//text color g
+	0.8;//text color b//}
+Security Guy (Cinematic I);//name---------------------------------------------------------------------------
+	41;//identifier//{
+	GET AWAY FROM HERE YOU IDIOT!!!;//text
+	4000;//duration
+	-1;//next dialog line (-1=none)
+	0.8;//text color r
+	0.2;//text color g
+	0.8;//text color b//}
+Player Engineer Hears Alien Noise;//name---------------------------------------------------------------------------
+	42;//identifier//{
+	Fuck...;//text
+	2500;//duration
+	43;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player Engineer Hears Alien Noise;//name---------------------------------------------------------------------------
+	43;//identifier//{
+	I better prepare myself...;//text
+	3500;//duration
+	1000;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0;//text color b//}
+Player got attacked by aliens;//name---------------------------------------------------------------------------
+  50;//identifier//{
+  Wha... What is that?!? ;//text
+  6000;//duration
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player sees ruble at engineering;//name---------------------------------------------------------------------------
+  60;//identifier//{
+  Hmm... I could probably weld the hole in this fallen metal debris to get to the other side.;//text
+  6000;//duration
+  61;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player sees ruble at engineering;//name---------------------------------------------------------------------------
+  61;//identifier//{
+I need to find a welder tool and some welding fule first.;//text
+  6000;//duration
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Emergency lights shut off;//name---------------------------------------------------------------------------
+  70;//identifier//{
+  Huh.. the emergency lights just died. I have to check the backup generator.;//text
+  6000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Debris Cleared;//name---------------------------------------------------------------------------
+  80;//identifier//{
+  There we go. I can now finally restart the generators.;//text
+  6000;//duration
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  90;//identifier//{
+  Nice, the doors are already open!;//text
+  6000;//duration
+  91;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  91;//identifier//{
+  The explosions probably damaged the engines too, so I should expect lethal amount of radiation inside.;//text
+  6000;//duration
+  92;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  92;//identifier//{
+  Maybe there is a hazmat suit in the locker unit. That will keep me protected.;//text
+  6000;//duration 
+  93;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+    0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  93;//identifier//{
+  Alright, so... I need to start the backup engines so they can power up the main generators. Then I need to go to the command room and use the console to start them.;//text
+  6000;//duration 
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  100;//identifier//{
+  Yes!;//text
+  4;//duration
+  101;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  101;//identifier//{
+  It works!.;//text
+  4000;//duration
+  102;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  102;//identifier//{
+  Now, the last thing I need is to enable light system.;//text
+  6000;//duration 
+  103;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+    0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  103;//identifier//{
+  It is located above this area, there are ladders leading inside at the far end of the engine hallway.;//text
+  6000;//duration 
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  110;//identifier//{
+  Lights are up too.;//text
+  4;//duration
+  111;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  111;//identifier//{
+  Now, let's go to the bulkhead and enter the west engineering section.;//text
+  4000;//duration
+  112;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Main Engine Entrance;//name---------------------------------------------------------------------------
+  112;//identifier//{
+  The bulkhead is located under near the storage I woke up.;//text
+  6000;//duration 
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+    0;//text color b//}
+Player engineer wakes up;//name-----------------------PLAYER ENGINEER WAKES UP---------------------------
+  120;//identifier//{
+  God... My head...;//text
+  6000;//duration
+  121;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player engineer wakes up;//name--------------------------------------------
+  121;//identifier//{
+;//text
+  13000;//duration
+  122;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player engineer wakes up;//name--------------------------------------------
+  122;//identifier//{
+  Let me regain some consciousness first...;//text
+  6000;//duration
+  123;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player engineer wakes up;//name--------------------------------------------
+  123;//identifier//{
+;//text
+  6000;//duration
+  124;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player engineer wakes up;//name--------------------------------------------
+  124;//identifier//{
+  Damn... The station deflected most of the radiation. I'm probably exposed to some of it.;//text
+  8000;//duration
+  125;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player engineer wakes up;//name--------------------------------------------
+  125;//identifier//{
+  Looks like the main power is out, but the emergency lights are still on.;//text
+  8000;//duration
+  126;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player engineer wakes up;//name--------------------------------------------
+  126;//identifier//{
+  Seems like the door is unpowered too, the backup door generator isn't on..;//text
+  10000;//duration
+  127;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player engineer wakes up;//name--------------------------------------------
+  127;//identifier//{
+  I must figure out how to get out...;//text
+  8000;//duration
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Alien bangs On Door;//name-----------------------ALIEN BANGS ON DOOR---------------------------
+  130;//identifier//{
+  Woah! What the hell!?;//text
+  4000;//duration
+  131;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Alien bangs On Door;//name--------------------------------------------
+  131;//identifier//{
+;//text
+  5000;//duration
+  132;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Alien bangs On Door;//name--------------------------------------------
+  132;//identifier//{
+  What the hell was that...;//text
+  6000;//duration
+  133;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Alien bangs On Door;//name--------------------------------------------
+  133;//identifier//{
+  ;//text
+  10000;//duration
+  134;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Alien bangs On Door;//name--------------------------------------------
+  134;//identifier//{
+I think it left...;//text
+  6000;//duration
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Sees Blood;//name-----------------------PLAYER SEES BLOOD---------------------------
+  140;//identifier//{
+  Oh my God...;//text
+  4000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Sees Blood;//name--------------------------------------------
+  141;//identifier//{
+Oh my... Chris...?;//text
+  5000;//duration
+  142;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Sees Blood;//name--------------------------------------------
+  142;//identifier//{
+  What happened to him...?;//text
+  6000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Sees Blood;//name-----------------------PLAYER SEES LOCKED BULK HEAD---------------------------
+  150;//identifier//{
+  Since the backup door generator isn't working, I will have to find another way to cross it.;//text
+  8000;//duration
+  151;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Sees Blood;//name--------------------------------------------
+  151;//identifier//{
+There is a shaft inside leading to the maintenance, maybe the other bulk head is open.;//text
+  8000;//duration
+  152;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Sees Blood;//name--------------------------------------------
+  152;//identifier//{
+  I'll have to open this door with a lever to get there.;//text
+  6000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Emergency Lights Shuts Down;//name-----------------------EMERGENCY LIGHTS SHUTS DOWN---------------------------
+  160;//identifier//{
+  And here goes the lights!;//text
+  6000;//duration
+  161;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Emergency Lights Shuts Down;//name--------------------------------------------
+  161;//identifier//{
+Fantastic...;//text
+  6000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Players Sees Locked Emergency Lock;//name-----------------------PLAYER SEES LOCKED EMERGENCY LOCK---------------------------
+  170;//identifier//{
+  So much for the other bulkhead...;//text
+  6000;//duration
+  171;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Players Sees Locked Emergency Lock;//name--------------------------------------------
+  171;//identifier//{
+There is a breach somewhere in that sector.;//text
+  8000;//duration
+  172;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Players Sees Locked Emergency Lock;//name--------------------------------------------
+  172;//identifier//{
+The data on the lock reads that there is not enough air, but the pressure is still stable enough to be safe in it.;//text
+  10000;//duration
+  173;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Players Sees Locked Emergency Lock;//name--------------------------------------------
+  173;//identifier//{
+If I can get to the other side, I could do a short run without air, at least to see if the bulkhead is open.;//text
+  10000;//duration
+  174;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Players Sees Locked Emergency Lock;//name--------------------------------------------
+  174;//identifier//{
+The pressure in those bulkheads should be stable and with enough air, so I will be safe as long as I stay inside.;//text
+  10000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Enters Airless Dormitory Area;//name-----------------------PLAYER ENTERS AIRLESS DORMITORY AREA---------------------------
+  180;//identifier//{
+  This is it, there wont be any breathable air above this airtight hatch.;//text
+  8000;//duration
+  181;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Enters Airless Dormitory Area;//name--------------------------------------------
+  181;//identifier//{
+I need to make a run for it to the south bulk head.;//text
+  8000;//duration
+  182;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Enters Airless Dormitory Area;//name--------------------------------------------
+  182;//identifier//{
+This hatch leads to the west sector, so I need to turn east and than south after I pass few dorms to reach it.;//text
+  10000;//duration
+  183;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Enters Airless Dormitory Area;//name--------------------------------------------
+  183;//identifier//{
+I should also prepare the lever in case I have to open any doors before the south bulk head area.;//text
+  10000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Asks Where Everyone is;//name--------------------------------------------
+  185;//identifier//{
+Where is everyone...?;//text
+  6000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Sees A Hole In Dormitory Area;//name-----------------------PLAYER SEES A HOLE---------------------------
+  190;//identifier//{
+  Huh, if I'm lucky enough, this hole in the wall leads to the maintenance shaft that is connected to the south Dormitory area.;//text
+  12000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Made It To The Other Side;//name-----------------------PLAYER MADE IT TO THE OTHER SIDE---------------------------
+  191;//identifier//{
+  Made it!;//text
+  5000;//duration
+  192;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+ Player Made It To The Other Side;//name----------------------- 
+   192;//identifier//{
+But I'm not sure if I should be celebrating, all this blood really freaks me out...;//text
+  10000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Giant Crusher Smashes Into Canteen;//name-----------------------GIANT CRUSHER SMASHES INTO CANTEEN---------------------------
+  193;//identifier//{
+  HOLY FUCK!;//text
+  4000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Giant Crusher Smashes Into Canteen;//name-----------------------
+  194;//identifier//{
+  Did I loose it!?;//text
+  4000;//duration
+ 195;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Giant Crusher Smashes Into Canteen;//name-----------------------
+  195;//identifier//{
+ Let's not stay close to that area any more...;//text
+  6000;//duration
+  196;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Giant Crusher Smashes Into Canteen;//name-----------------------
+  196;//identifier//{
+ Phew...;//text
+  4000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Player Saw Anomaly;//name-----------------------PLAYER SAW ANOMALY---------------------------
+  197;//identifier//{
+  Whoa, what is that?;//text
+  6000;//duration
+  198;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+ Player Saw Anomaly;//name----------------------- 
+   198;//identifier//{
+Looks like some kind of anomaly...;//text
+  6000;//duration
+  199;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+ Player Saw Anomaly;//name----------------------- 
+   199;//identifier//{
+I better stay away from it until I know more.;//text
+  8000;//duration
+  5;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+ Player Saw Anomaly;//name----------------------- 
+   184;//identifier//{
+And another one...;//text
+  6000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Tutorial Start;//name-----------------------TUTORIAL//{ //{
+	200;//identifier//{
+	Hello and welcome to the tutorial!;//text
+	6000;//duration
+	201;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial Start;//name-----------------------
+	201;//identifier//{
+	This tutorial will teach you the basic things about this mod.;//text
+	6000;//duration
+	202;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial Start;//name-----------------------
+	202;//identifier//{
+	Once you complete each task, you can proceed to other tutorial areas.;//text
+	6000;//duration
+	203;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial Start;//name-----------------------
+	203;//identifier//{
+	Let's start by opening the door to your right. (Right click on the door);//text
+	6000;//duration
+	204;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}
+Tutorial Finished;//name-----------------------
+	204;//identifier//{
+	Start the next tutorial by opening the forcefield;//text
+	2000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.6;//text color b//}//}
+Tutorial 1;//name-----------------------TUTORIAL 1 //{  //{ 
+	205;//identifier//{
+	Lets begin with some basics about containers.;//text
+	6000;//duration
+	206;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 1;//name-----------------------
+	206;//identifier//{
+	Container get transparent when you get close to them, so they will reveal any item inside of it.;//text
+	6000;//duration
+	207;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 1;//name-----------------------
+	207;//identifier//{
+	To complete this tutorial, you must find all 5 chocolate bars hidden in this room.;//text
+	2000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 1;//name-----------------------
+	208;//identifier//{
+	You found the 1st chocolate bar!;//text
+	2000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 1;//name-----------------------
+	209;//identifier//{
+	You found the 2nd chocolate bar!;//text
+	2000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 1;//name-----------------------
+	210;//identifier//{
+	You found the 3rd chocolate bar!;//text
+	2000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 1;//name-----------------------
+	211;//identifier//{
+	You found the 4th chocolate bar!;//text
+	2000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 1;//name-----------------------
+	212;//identifier//{
+	You found the 5th chocolate bar!;//text
+	3000;//duration
+	204;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 2;//name-----------------------TUTORIAL 2 //{  //{ 
+	213;//identifier//{
+	This tutorial is about equipment and inventory managment;//text
+	6000;//duration
+	214;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 2;//name-----------------------
+	214;//identifier//{
+	You have to wear backpacks and jumpsuits in order to carry more items;//text
+	6000;//duration
+	215;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 2;//name-----------------------
+	215;//identifier//{
+	Inventory space takes into account the size and weight of an object.;//text
+	6000;//duration
+	216;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 2;//name-----------------------
+	216;//identifier//{
+	Which means that light but large objects may take more space than smaller but heavier objects.;//text
+	6000;//duration
+	217;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 2;//name-----------------------
+	217;//identifier//{
+	To Finish this tutorial, pick up the jumpsuit and backpack and equip them. Use X or I shortcut to open your inventory.;//text
+	200000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 3;//name-----------------------TUTORIAL 3 //{  //{ 
+	218;//identifier//{
+	This tutorial is about food and drinks;//text
+	6000;//duration
+	219;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 3;//name-----------------------
+	219;//identifier//{
+	In order to survive, you have to stay well fed and hydrated.;//text
+	6000;//duration
+	220;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 3;//name-----------------------
+	220;//identifier//{
+	In order to consume items, go to your inventory, select the item you want to consume, and press U.;//text
+	6000;//duration
+	221;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 3;//name-----------------------
+	221;//identifier//{
+	This will trigger and action. Action takes time to complete. To cancel it, simply move away a bit.;//text
+	6000;//duration
+	222;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 3;//name-----------------------
+	222;//identifier//{
+	Starvation slows you down and lowers your wellness, consuming unhealthy items lowers it too, which affects things like meds efficency and energy recovery. ;//text
+	8000;//duration
+	223;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 3;//name-----------------------
+	223;//identifier//{
+	You can consume 5 items at a short time, and need to rest a little bit to eat or drink again.;//text
+	6000;//duration
+	224;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 3;//name-----------------------
+	224;//identifier//{
+	Each food or drink has unique effects, such as energy bar raising your stamina.;//text
+	6000;//duration
+	225;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 3;//name-----------------------
+	225;//identifier//{
+	To complete this tutorial, make sure that you are not starving, and then open the door.;//text
+	200000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 4;//name-----------------------TUTORIAL 4 //{  //{ 
+	226;//identifier//{
+	Many areas will be in total darkness, so you have to be prepared for that too.;//text
+	6000;//duration
+	227;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 4;//name-----------------------
+	227;//identifier//{
+	Flashlights drains energy, and they have to be rechargedonce depleted.;//text
+	6000;//duration
+	228;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 4;//name-----------------------
+	228;//identifier//{
+	To do so, simply open your inventory and combine it with a battery cell.;//text
+	6000;//duration
+	229;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 4;//name-----------------------
+	229;//identifier//{
+	You can have multiple flashlights ready so you can quickly access them with F key once depleted.;//text
+	6000;//duration
+	230;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 4;//name-----------------------
+	230;//identifier//{
+	You can also use glowsticks to light up your way.;//text
+	6000;//duration
+	231;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 4;//name-----------------------
+	231;//identifier//{
+	Equip them and hold the right mouse button to aim, them press the left key to throw.;//text
+	6000;//duration
+	232;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 4;//name-----------------------
+	232;//identifier//{
+	They can be picked up with V key.;//text
+	6000;//duration
+	233;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 4;//name-----------------------
+	233;//identifier//{
+	Go to the other side to finish this tutorial.;//text
+	200000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 5;//name-----------------------TUTORIAL 5 //{  //{ 
+	234;//identifier//{
+	Looks like the power just went out.;//text
+	6000;//duration
+	235;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 5;//name-----------------------
+	235;//identifier//{
+	Without Main power, many machines wont work, including lights;//text
+	6000;//duration
+	236;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 5;//name-----------------------
+	236;//identifier//{
+	There is a backup power generator wich only enables low level lights and doors, but in this situation, it is down too.;//text
+	6000;//duration
+	237;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 5;//name-----------------------
+	237;//identifier//{
+	To open the next door, you need a lever, like a crowbar.;//text
+	6000;//duration
+	238;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 5;//name-----------------------
+	238;//identifier//{
+	Pick it up, wield it as a weapon and right click on the door to open it.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6;//name-----------------------TUTORIAL 6 //{  //{ 
+	239;//identifier//{
+	Now we will go trough medical system.;//text
+	6000;//duration
+	240;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6;//name-----------------------
+	240;//identifier//{
+	First off, your health is a value that gets lowered when you get brute, burn, toxin or respiration damage.;//text
+	6000;//duration
+	241;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6;//name-----------------------
+	241;//identifier//{
+	Each damage type deals pain that will slow you down. High pain lowers your consiousness which blurrs your vision.;//text
+	6000;//duration
+	242;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6;//name-----------------------
+	242;//identifier//{
+	You can inspect your wounds by examining yourself. Open your inventory and use the Examine Wounds item.;//text
+	6000;//duration
+	243;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6;//name-----------------------
+	243;//identifier//{
+	Now we will go a little in depth about each condition and damage. Proceed to the top left door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6a;//name-----------------------TUTORIAL 6a //{  //{ 
+	244;//identifier//{
+	You have been inflicted by some brute damage, so go ahead and heal yourself. You can inspect your wounds to get more info.;//text
+	8000;//duration
+	245;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6a;//name-----------------------
+	245;//identifier//{
+	Brute damage is inflicted by sharp or blunt objects.;//text
+	6000;//duration
+	246;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6a;//name-----------------------
+	246;//identifier//{
+	It deals moderate ammount of pain and is the most common damage type you will treat.;//text
+	6000;//duration
+	247;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6a;//name-----------------------
+	247;//identifier//{
+	Bruise patches and ointments are used to treat this damage type.;//text
+	6000;//duration
+	248;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6a;//name-----------------------
+	248;//identifier//{
+	You can only apply one type of medicine at a time (Except for chemicals), and you need to salve it again after some time.;//text
+	6000;//duration
+	249;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6a;//name-----------------------
+	249;//identifier//{
+	Moving around with salved wounds will lower the healing effect, so it is best to stay still.;//text
+	6000;//duration
+	250;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6a;//name-----------------------
+	250;//identifier//{
+	Once you heal up, proceed to the bottom left door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6b;//name-----------------------TUTORIAL 6b //{  //{ 
+	251;//identifier//{
+	You have been inflicted by some burn damage, so go ahead and heal yourself. You can inspect your wounds to get more info.;//text
+	8000;//duration
+	252;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6b;//name-----------------------
+	252;//identifier//{
+	Burn damage is inflicted by fires or electric shocks.;//text
+	6000;//duration
+	253;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6b;//name-----------------------
+	253;//identifier//{
+	It deals high ammount of pain.;//text
+	6000;//duration
+	254;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6b;//name-----------------------
+	254;//identifier//{
+	Burn patches and ointments are used to treat this damage type.;//text
+	6000;//duration
+	255;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6b;//name-----------------------
+	255;//identifier//{
+	You can only apply one type of medicine at a time (Except for chemicals), and you need to salve it again after some time.;//text
+	6000;//duration
+	256;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6b;//name-----------------------
+	256;//identifier//{
+	Moving around with salved wounds will lower the healing effect, so it is best to stay still.;//text
+	6000;//duration
+	257;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6b;//name-----------------------
+	257;//identifier//{
+	Once you heal up, proceed to the top middle left door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6c;//name-----------------------TUTORIAL 6c //{  //{ 
+	258;//identifier//{
+	You have been inflicted by some toxin damage, so go ahead and heal yourself. You can inspect your wounds to get more info.;//text
+	8000;//duration
+	259;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6c;//name-----------------------
+	259;//identifier//{
+	Toxin damage is inflicted by toxic materials or overdoses;//text
+	6000;//duration
+	260;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6c;//name-----------------------
+	260;//identifier//{
+	It deals low ammount of pain, but high toxin damage can make you vomit.;//text
+	6000;//duration
+	261;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6c;//name-----------------------
+	261;//identifier//{
+	Anti-toxin is used to heal toxin damage;//text
+	6000;//duration
+	262;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6c;//name-----------------------
+	262;//identifier//{
+	You can apply multiple shot of antitoxin to make it last longer, but beware of the overdose.;//text
+	6000;//duration
+	263;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6c;//name-----------------------
+	264;//identifier//{
+	Low blood count will lower the healing effect.;//text
+	6000;//duration
+	265;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6c;//name-----------------------
+	265;//identifier//{
+	Once you heal up, proceed to the bottom middle left door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6d;//name-----------------------TUTORIAL 6d //{  //{ 
+	266;//identifier//{
+	You have been inflicted by some respiration damage, so go ahead and heal yourself. You can inspect your wounds to get more info.;//text
+	8000;//duration
+	267;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6d;//name-----------------------
+	267;//identifier//{
+	Respiration damage is inflicted by low blood levels and lack of oxygen;//text
+	6000;//duration
+	268;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6d;//name-----------------------
+	268;//identifier//{
+	It deals high ammount of pain and rapid consciousness loss at high levels.;//text
+	6000;//duration
+	269;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6d;//name-----------------------
+	269;//identifier//{
+	Respiration damage is healed by itself if you are not bleeding or not suffocating, or by dexaline chemical.;//text
+	6000;//duration
+	270;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6d;//name-----------------------
+	270;//identifier//{
+	You can apply multiple shot of dexaline to make it last longer, but beware of the overdose.;//text
+	6000;//duration
+	271;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6d;//name-----------------------
+	271;//identifier//{
+	Low blood count will lower the chemical healing effect.;//text
+	6000;//duration
+	272;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6d;//name-----------------------
+	272;//identifier//{
+	Once you heal up, proceed to the top middle door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6e;//name-----------------------TUTORIAL 6e //{  //{ 
+	273;//identifier//{
+	You have been inflicted by some blood loss damage, so go ahead and heal yourself. You can inspect your wounds to get more info.;//text
+	8000;//duration
+	274;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6e;//name-----------------------
+	274;//identifier//{
+	Blood loss is inflicted by sharp objects.;//text
+	6000;//duration
+	275;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6e;//name-----------------------
+	275;//identifier//{
+	It lowers you blood level depending on severity. Low blood level deals respiration damage.;//text
+	6000;//duration
+	276;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6e;//name-----------------------
+	276;//identifier//{
+	Blood Loss is stopped by bandages, and blood level is replenished by eating food.;//text
+	6000;//duration
+	277;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6e;//name-----------------------
+	277;//identifier//{
+	You can also apply chemicals to stop bleeding or recover blood loss.;//text
+	6000;//duration
+	278;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6e;//name-----------------------
+	278;//identifier//{
+	Once you heal up, proceed to the bottom middle door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6f;//name-----------------------TUTORIAL 6f //{  //{ 
+	279;//identifier//{
+	You have been inflicted by some radiation damage, so go ahead and heal yourself. You can inspect your wounds to get more info.;//text
+	8000;//duration
+	280;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	280;//identifier//{
+	Radiation damage is inflicted by radioactive materials.;//text
+	6000;//duration
+	281;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	281;//identifier//{
+	It deals high ammount of pain, rapid loss of consiousness and toxin damage depending on severity.;//text
+	8000;//duration
+	282;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6f;//name-----------------------
+	282;//identifier//{
+	Radiation damage is healed with anti radiation chemicals.;//text
+	6000;//duration
+	283;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	283;//identifier//{
+	Low blood count will lower the chemical healing effect.;//text
+	6000;//duration
+	284;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	284;//identifier//{
+	Once you heal up, proceed to the top right middle door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6g;//name-----------------------TUTORIAL 6g //{  //{ 
+	285;//identifier//{
+	Pain damage is inflicted by any other damage type.;//text
+	6000;//duration
+	286;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6g;//name-----------------------
+	286;//identifier//{
+	It slows you own and lowers consciousness.;//text
+	8000;//duration
+	287;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6g;//name-----------------------
+	287;//identifier//{
+	Pain is lowered by healing other damage types or by using painkillers.;//text
+	6000;//duration
+	288;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6g;//name-----------------------
+	288;//identifier//{
+	Low blood count will lower the chemical healing effect.;//text
+	6000;//duration
+	289;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6g;//name-----------------------
+	289;//identifier//{
+	Proceed to the bottom right middle door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6h;//name-----------------------TUTORIAL 6h //{  //{ 
+	290;//identifier//{
+	Consiousness damage is raised by pain, depending on severity.;//text
+	6000;//duration
+	291;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	291;//identifier//{
+	It slows you down and makes your vision blurry.;//text
+	8000;//duration
+	292;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6f;//name-----------------------
+	292;//identifier//{
+	Consiousness is raised by lowering pain. Certain chemicals can help your consiosness.;//text
+	6000;//duration
+	293;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	293;//identifier//{
+	Low blood count will lower the chemical effect.;//text
+	6000;//duration
+	294;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	294;//identifier//{
+	Proceed to the top right door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6i;//name-----------------------TUTORIAL 6i //{  //{ 
+	295;//identifier//{
+	Critical condition is a state when your total health drops below 0.;//text
+	6000;//duration
+	296;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	296;//identifier//{
+	It gets lower depending on health severity, and you will die once it reaches 0.;//text
+	8000;//duration
+	297;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6f;//name-----------------------
+	297;//identifier//{
+	Critical condition is raised by itself, but only if your health is above 0.;//text
+	6000;//duration
+	298;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	298;//identifier//{
+	Adrenaline can temorarly slow down death.;//text
+	6000;//duration
+	299;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	299;//identifier//{
+	Proceed to the bottom right door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 6j;//name-----------------------TUTORIAL 6j //{  //{ 
+	300;//identifier//{
+	Welness defines how well you are doing.;//text
+	6000;//duration
+	301;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	301;//identifier//{
+	It gets lower by using medical items, eating unhealthy food, loosing too much blood, geting radiated, or being in critical condition.;//text
+	8000;//duration
+	302;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 6f;//name-----------------------
+	302;//identifier//{
+	But it also gets higher if you eat healthy food or use vitamin regulary.;//text
+	6000;//duration
+	303;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	303;//identifier//{
+	Wellness affects healing effects and stamina regeneration.;//text
+	6000;//duration
+	304;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 6f;//name-----------------------
+	304;//identifier//{
+	This is roughly the concept of medical system, more info will be given in actual gameplay. Proceed to the next room.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 7;//name-----------------------TUTORIAL 7 //{  //{ 
+	305;//identifier//{
+	Welcome to the combat tutorial.;//text
+	6000;//duration
+	306;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 7;//name-----------------------
+	306;//identifier//{
+	Each creature has unique armor values that protect them against various types of damages.;//text
+	8000;//duration
+	307;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 7;//name-----------------------
+	307;//identifier//{
+	It is up to you to find their weaknesses.;//text
+	6000;//duration
+	308;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 7;//name-----------------------
+	308;//identifier//{
+	Every melee weapon has either energy or durability value. Once the durability drops to 0, the item is broken.;//text
+	6000;//duration
+	309;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 7;//name-----------------------
+	309;//identifier//{
+	They require stamina to function, and stamina regeneration speed depends on your welness, energy and stamina itself.;//text
+	6000;//duration
+	310;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 7;//name-----------------------
+	310;//identifier//{
+	So, take a break every time you swing, as it will quickly tire you out.;//text
+	6000;//duration
+	311;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 7;//name-----------------------
+	311;//identifier//{
+	Ranged weapons require ammunition and has to be reloaded. Use the R key to reload, and K key to unload.;//text
+	6000;//duration
+	312;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 7;//name-----------------------
+	312;//identifier//{
+	Press C key to switch ammo type (Once unloaded).;//text
+	6000;//duration
+	313;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 7;//name-----------------------
+	313;//identifier//{
+	Now, it is time for some live action. Take your weapon and proceed to the next door.;//text
+	20000000000000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}
+Tutorial 8;//name-----------------------TUTORIAL 8 //{  //{ 
+	314;//identifier//{
+	Welcome to the live combat tutorial.;//text
+	6000;//duration
+	315;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 8;//name-----------------------
+	315;//identifier//{
+	You task is to kill 3 enemies in this tutorial without dying, so it is recommended to save here.;//text
+	8000;//duration
+	316;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}	
+Tutorial 8;//name-----------------------
+	316;//identifier//{
+	Each enemy has unique tactic that will be used against you. Be it a simple dodge or charge, they will use it against you.
+	6000;//duration
+	317;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 8;//name-----------------------
+	317;//identifier//{
+	They can be stunned or knocked out. While in that state, they cannot move nor attack. The biger the creature, the harder it is to stun it or knock it out.;//text
+	8000;//duration
+	318;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 8;//name-----------------------
+	318;//identifier//{
+	To knock out a creature, simply inflict as much pain as possible. Blunt weapons are good at knocking them out.;//text
+	6000;//duration
+	319;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 8;//name-----------------------
+	319;//identifier//{
+	To stun a creature, use a energy based weapon, like stun prod or taser.;//text
+	6000;//duration
+	320;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 8;//name-----------------------
+	320;//identifier//{
+	Enemies will try to flee when on fire or when they have low health.;//text
+	6000;//duration
+	321;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 8;//name-----------------------
+	321;//identifier//{
+	2 waves of enemies will now spawn. Good luck!;//text
+	6000;//duration
+	322;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}
+Tutorial 8;//name-----------------------
+	322;//identifier//{
+	Tutorial ends when you kill all 3 aliens. You can use weapons spread across this room.;//text
+	10000;//duration
+	-1;//next dialog line (-1=none)
+	0.6;//text color r
+	1;//text color g
+	0.3;//text color b//}//}//}	
+	Need a lever to open doors;//name----------------------- 
+   999;//identifier//{
+I need a lever to force it open.;//text
+  3000;//duration
+  1000;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0;//text color b//}
+Dialogue Finished;//name----------------------- 
+   1000;//identifier//{
+;//text
+  2000000000;//duration
+  -1;//next dialog line (-1=none)
+  0.6;//text color r
+  1;//text color g
+  0.6;//text color b//}
+end_of_file;

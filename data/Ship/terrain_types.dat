@@ -1,0 +1,1067 @@
+Random Terrain;//name---------------------------------------
+	0;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	20000.000000;//footstep particle live time, -1=no footsteps
+	-1;//override footstep particle
+	none;//override footstep sound
+	begin_terrain_frames;
+		random.jpg;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+No random objects;//name---------------------------------------
+	1;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	20000.000000;//footstep particle live time, -1=no footsteps
+	-1;//override footstep particle
+	none;//override footstep sound
+	begin_terrain_frames;
+		norandom.png;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Metal floor;//name---------------------------------------
+	2;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	20000.000000;//footstep particle live time, -1=no footsteps
+	-1;//override footstep particle
+	none;//override footstep sound
+	begin_terrain_frames;
+		metal_floor_6.jpg;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Black;//name---------------------------------------
+	3;//identifier//{
+	1;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	1;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	20000.000000;//footstep particle live time, -1=no footsteps
+	-1;//override footstep particle
+	none;//override footstep sound
+	begin_terrain_frames;
+		black.bmp;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Metal floor;//name---------------------------------------
+  4;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_7.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Metal floor;//name---------------------------------------
+  5;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Metal floor;//name---------------------------------------
+  6;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Metal floor;//name---------------------------------------
+  7;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2a.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Metal floor;//name---------------------------------------
+  8;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_3.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Metal floor;//name---------------------------------------
+  9;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_4.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Metal floor;//name---------------------------------------
+  10;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_5.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Radiated Metal floor - Minor;//name---------------------------------------
+  11;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.100000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2a.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  none;//event text-----------------------------------Geiger Counter
+    600.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      19.000000;//condition parameter0
+      0.000000;//condition parameter1
+	 	       23;//condition
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        14;//effect number
+      2.000000;//parameter1
+      1.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  none;//event text-----------------------------------Hazmat Suit
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      20.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        4;//effect number
+      0.100000;//parameter1
+      0.00000;//parameter2
+      5.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Radiated Metal floor - Medium;//name---------------------------------------
+  12;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.200000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2a.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  none;//event text-----------------------------------Geiger Counter
+    600.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	  11;//condition------------------If Geiger Counter Is Worn
+      19.000000;//condition parameter0
+      0.000000;//condition parameter1
+	23;//condition------------------If It Is Player
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        14;//effect number------------------Make Sound
+      3.000000;//parameter1
+      1.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  none;//event text-----------------------------------Hazmat Suit
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition------------------If Hazmat Suit Is Not Worn
+      20.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        4;//effect number------------------Give Radiation
+      0.300000;//parameter1
+      0.00000;//parameter2
+      5.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Radiated Metal floor - Heavy;//name---------------------------------------
+  13;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.400000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2a.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  none;//event text-----------------------------------Geiger Counter
+    600.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      19.000000;//condition parameter0
+      0.000000;//condition parameter1
+	 	       23;//condition
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        14;//effect number
+      4.000000;//parameter1
+      1.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  none;//event text-----------------------------------Hazmat Suit
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      20.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        4;//effect number
+      0.700000;//parameter1
+      0.00000;//parameter2
+      5.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Radiated Metal floor - Minor;//name---------------------------------------
+  14;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.100000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  none;//event text-----------------------------------Geiger Counter
+    600.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      19.000000;//condition parameter0
+      0.000000;//condition parameter1
+	 	       23;//condition
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        14;//effect number
+      2.000000;//parameter1
+      1.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  none;//event text-----------------------------------Hazmat Suit
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      20.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        4;//effect number
+      0.100000;//parameter1
+      0.00000;//parameter2
+      5.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Radiated Metal floor - Medium;//name---------------------------------------
+  15;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.200000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  none;//event text-----------------------------------Geiger Counter
+    600.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      19.000000;//condition parameter0
+      0.000000;//condition parameter1
+23;//condition
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        14;//effect number
+      3.000000;//parameter1
+      1.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  none;//event text-----------------------------------Hazmat Suit
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      20.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        4;//effect number
+      0.300000;//parameter1
+      0.00000;//parameter2
+      5.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Radiated Metal floor - Heavy;//name---------------------------------------
+  16;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.400000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  none;//event text-----------------------------------Geiger Counter
+    600.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      19.000000;//condition parameter0
+      0.000000;//condition parameter1
+	 	       23;//condition
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        14;//effect number
+      4.000000;//parameter1
+      1.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  none;//event text-----------------------------------Hazmat Suit
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition
+      20.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        4;//effect number
+      0.700000;//parameter1
+      0.00000;//parameter2
+      5.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Metal floor;//name---------------------------------------
+  17;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_8.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Metal floor;//name---------------------------------------
+  18;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_9.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Metal floor - Green water;//name---------------------------------------
+  19;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.150000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  14;//override footstep particle
+  water.wav;//override footstep sound
+  begin_terrain_frames;
+    a1.jpg;//terrain texture
+    200.000000;//time to display frame
+    a2.jpg;//terrain texture
+    200.000000;//time to display frame
+    a3.jpg;//terrain texture
+    200.000000;//time to display frame
+    a4.jpg;//terrain texture
+    200.000000;//time to display frame
+    a5.jpg;//terrain texture
+    200.000000;//time to display frame
+    a6.jpg;//terrain texture
+    200.000000;//time to display frame
+    a7.jpg;//terrain texture
+    200.000000;//time to display frame
+    a8.jpg;//terrain texture
+    200.000000;//time to display frame
+    a9.jpg;//terrain texture
+    200.000000;//time to display frame
+    a10.jpg;//terrain texture
+    200.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+    The water slows you down.;//event text------------------------------Slow Down
+    600.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+    end_conditions;
+    begin_effects;
+	        1;//effect number
+      600.000000;//parameter1
+      -1.000000;//parameter2
+      0.500000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+The water slows you down.;//event text-------------------------------Noise
+    400.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	  23;//condition-------------------------Player Only
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	        19;//effect number
+      67.000000;//parameter1
+      0.010000;//parameter2
+      10.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+The water slows you down.;//event text-------------------------------Noise
+    600.000000;//interval
+    0;//run only once 0=no, 1=yes
+      begin_conditions;
+	  22;//condition-------------------------Player Only
+      5.000000;//condition parameter0
+      0.000000;//condition parameter1
+	  23;//condition-------------------------Player Only
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1
+	  20;//condition-------------------------Player Only
+      1.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	  46;//effect number
+      0.000000;//parameter1
+      6.000000;//parameter2
+     0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+none;//event text-------------------------------Spitters Rest
+    2000.000000;//interval
+    0;//run only once 0=no, 1=yes
+      begin_conditions;
+	  22;//condition-------------------------If It is Spitter (Young)
+      14.000000;//condition parameter0
+      0.000000;//condition parameter1
+	  23;//condition-------------------------Is Not Player
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1
+	  20;//condition-------------------------If Not Angry
+      1.000000;//condition parameter0
+      0.100000;//condition parameter1
+	  8;//condition-------------------------Low Chance
+      12.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	  46;//effect number
+      0.000000;//parameter1
+      6.000000;//parameter2
+     20000.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Carpet;//name---------------------------------------
+  20;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    carpet_0.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Airless Metal floor - Minor;//name---------------------------------------
+ 21;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+	  You cannot breathe!;//event text-----------------------------------No Air
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       5;//condition-----------------------------------No Air
+      29.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	 23;//effect number-----------------------------------Give Oxygen Damage
+      -10.000000;//parameter1
+      -1.00000;//parameter2
+      12.000000;//parameter3
+      1000.000000;//parameter4
+	 23;//effect number-----------------------------------Give Consciousness Damage
+      12.000000;//parameter1
+      -1.00000;//parameter2
+      20.000000;//parameter3
+      1000.000000;//parameter4
+    end_effects;
+	  You cannot breathe!;//event text-----------------------------------Has Air, No Mask
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition-----------------------------------Not Equipped
+      87.000000;//condition parameter0
+      1.000000;//condition parameter1
+	       3;//condition-----------------------------------Has Air
+      29.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	 23;//effect number-----------------------------------Give Oxygen Damage
+      -10.000000;//parameter1
+      -1.00000;//parameter2
+      12.000000;//parameter3
+      1000.000000;//parameter4
+	 23;//effect number-----------------------------------Give Consciousness Damage
+      12.000000;//parameter1
+      -1.00000;//parameter2
+      20.000000;//parameter3
+      1000.000000;//parameter4
+    end_effects;
+	  It is hard to walk in low pressure...;//event text-----------------------------------Low Pressure
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+    end_conditions;
+    begin_effects;
+	 1;//effect number-----------------------------------Slow Down
+      1300.000000;//parameter1
+      -1.000000;//parameter2
+      0.800000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Airless Carpet - Minor;//name---------------------------------------
+ 22;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    carpet_0.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+	  You cannot breathe!;//event text-----------------------------------No Air
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       5;//condition-----------------------------------No Air
+      29.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	 23;//effect number-----------------------------------Give Oxygen Damage
+      -10.000000;//parameter1
+      -1.00000;//parameter2
+      12.000000;//parameter3
+      1000.000000;//parameter4
+	 23;//effect number-----------------------------------Give Consciousness Damage
+      12.000000;//parameter1
+      -1.00000;//parameter2
+      20.000000;//parameter3
+      1000.000000;//parameter4
+    end_effects;
+	  You cannot breathe!;//event text-----------------------------------Has Air, No Mask
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition-----------------------------------Not Equipped
+      87.000000;//condition parameter0
+      1.000000;//condition parameter1
+	       3;//condition-----------------------------------Has Air
+      29.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	 23;//effect number-----------------------------------Give Oxygen Damage
+      -10.000000;//parameter1
+      -1.00000;//parameter2
+      12.000000;//parameter3
+      1000.000000;//parameter4
+	 23;//effect number-----------------------------------Give Consciousness Damage
+      12.000000;//parameter1
+      -1.00000;//parameter2
+      20.000000;//parameter3
+      1000.000000;//parameter4
+    end_effects;
+	  It is hard to walk in low pressure...;//event text-----------------------------------Low Pressure
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+    end_conditions;
+    begin_effects;
+	 1;//effect number-----------------------------------Slow Down
+      1300.000000;//parameter1
+      -1.000000;//parameter2
+      0.800000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Airless Metal Floor - Minor;//name---------------------------------------
+ 23;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_2a.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+	  You cannot breathe!;//event text-----------------------------------No Air
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       5;//condition-----------------------------------No Air
+      29.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	 23;//effect number-----------------------------------Give Oxygen Damage
+      -10.000000;//parameter1
+      -1.00000;//parameter2
+      12.000000;//parameter3
+      1000.000000;//parameter4
+	 23;//effect number-----------------------------------Give Consciousness Damage
+      12.000000;//parameter1
+      -1.00000;//parameter2
+      20.000000;//parameter3
+      1000.000000;//parameter4
+    end_effects;
+	  You cannot breathe!;//event text-----------------------------------Has Air, No Mask
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+	       11;//condition-----------------------------------Not Equipped
+      87.000000;//condition parameter0
+      1.000000;//condition parameter1
+	       3;//condition-----------------------------------Has Air
+      29.000000;//condition parameter0
+      1.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+	 23;//effect number-----------------------------------Give Oxygen Damage
+      -10.000000;//parameter1
+      -1.00000;//parameter2
+      12.000000;//parameter3
+      1000.000000;//parameter4
+	 23;//effect number-----------------------------------Give Consciousness Damage
+      12.000000;//parameter1
+      -1.00000;//parameter2
+      20.000000;//parameter3
+      1000.000000;//parameter4
+    end_effects;
+	  It is hard to walk in low pressure...;//event text-----------------------------------Low Pressure
+    1000.000000;//interval
+    1;//run only once 0=no, 1=yes
+      begin_conditions;
+    end_conditions;
+    begin_effects;
+	 1;//effect number-----------------------------------Slow Down
+      1300.000000;//parameter1
+      -1.000000;//parameter2
+      0.800000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;//}
+Stars;//name---------------------------------------
+	24;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	2000.000000;//footstep particle live time, -1=no footsteps
+	-1;//override footstep particle
+	none;//override footstep sound
+	begin_terrain_frames;
+		stars1.jpg;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Stars;//name---------------------------------------
+	25;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	2000.000000;//footstep particle live time, -1=no footsteps
+	-1;//override footstep particle
+	none;//override footstep sound
+	begin_terrain_frames;
+		stars2.jpg;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Stars;//name---------------------------------------
+	26;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	2000.000000;//footstep particle live time, -1=no footsteps
+	-1;//override footstep particle
+	none;//override footstep sound
+	begin_terrain_frames;
+		stars3.jpg;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Tile Floor;//name---------------------------------------
+  27;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  10000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    jungle_tiles.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Tile Floor;//name---------------------------------------
+  28;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  10000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    jungle_tiles_broken.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Grass;//name---------------------------------------
+	29;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	10000.000000;//footstep particle live time, -1=no footsteps
+		-1;//override footstep particle
+		none;//override footstep sound
+	begin_terrain_frames;
+		qgrass3.jpg;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Grass;//name---------------------------------------
+	30;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	10000.000000;//footstep particle live time, -1=no footsteps
+		-1;//override footstep particle
+		none;//override footstep sound
+	begin_terrain_frames;
+		qmoss.jpg;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Floor;//name---------------------------------------
+	49;//identifier//{
+	0;//AI avoids this terrain
+	0;//do not place on map edges on random selection
+	0;//do not place random objects on this terrain
+	0.000000;//base light r
+	0.000000;//base light g
+	0.000000;//base light b
+	2000.000000;//footstep particle live time, -1=no footsteps
+	-1;//override footstep particle
+	none;//override footstep sound
+	begin_terrain_frames;
+		floor_00.jpg;//terrain texture
+		0.000000;//time to display frame
+	end_terrain_frames;
+	begin_effects_block;
+	end_effects_block;//}
+Floor;//name---------------------------------------
+ 50;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  2000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    floor_01.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Vent Floor;//name---------------------------------------
+ 51;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  2000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_10.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Grille Floor;//name---------------------------------------
+ 52;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  2000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_11a.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+Plating;//name---------------------------------------
+ 53;//identifier//{
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  2000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+    metal_floor_12.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;//}
+  end_of_file;
+  

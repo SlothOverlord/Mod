@@ -1,0 +1,85 @@
+Emergency Alert;//name------------
+  0;//identifier
+  alert.wav;//filename
+Heart Beat;//name------------
+  1;//identifier
+  heart_beat.wav;//filename
+Radiation low;//name------------
+  2;//identifier
+  Radiation_low.wav;//filename
+Radiation medium;//name------------
+  3;//identifier
+  Radiation_medium.wav;//filename
+Radiation high;//name------------
+  4;//identifier
+  Radiation_high.wav;//filename
+Creature Growl;//name------------
+  5;//identifier
+  shriek7.wav;//filename
+Light Flicker;//name------------
+  6;//identifier
+  light_flicker_0.wav;//filename
+Light Flicker;//name------------
+  7;//identifier
+  light_flicker_1.wav;//filename
+Light Flicker;//name------------
+  8;//identifier
+  light_flicker_2.wav;//filename
+Welding;//name------------
+  9;//identifier
+  welder.wav;//filename
+Explosion;//name------------
+  10;//identifier
+  explosion2.wav;//filename
+Door Bang;//name------------
+  11;//identifier
+  doorbangs.wav;//filename
+Alien Scream;//name------------
+  12;//identifier
+monster_scream_1.wav;//filename
+Wall Smash;//name------------
+  13;//identifier
+explosion_large_debris_0.wav;//filename
+Alien Crusher Scream;//name------------
+  14;//identifier
+alien_roar_large.wav;//filename
+Creature Noise;//name------------
+  15;//identifier
+alien_noise.wav;//filename
+Vent Burst;//name------------
+  16;//identifier
+vent_burst.wav;//filename
+Door Bang I;//name------------
+	17;//identifier
+	doorbang_0.wav;//filename
+Door Bang II;//name------------
+	18;//identifier
+	doorbang_1.wav;//filename
+Door Bang III;//name-----------
+	19;//identifier
+	doorbang_2.wav;//filename
+Door Bang IV;//name------------
+	20;//identifier
+	doorbang_3.wav;//filename
+Stab Sound;//name--------------
+	21;//identifier
+	knife.wav;//filename
+Alien Hurt Sound;//name--------------
+	22;//identifier
+	alien_hurt_0.wav;//filename
+Alien Hurt Sound;//name--------------
+	23;//identifier
+	alien_hurt_1.wav;//filename
+Alien Hurt Sound;//name--------------
+	24;//identifier
+	alien_hurt_2.wav;//filename
+Alien Hurt Sound;//name--------------
+	25;//identifier
+	alien_hurt_3.wav;//filename
+Door - Access Allowed;//name--------------
+	26;//identifier
+	door_access_granted.wav;//filename
+Door - Access Denied;//name--------------
+	27;//identifier
+	door_access_denied.wav;//filename
+end_of_file;
